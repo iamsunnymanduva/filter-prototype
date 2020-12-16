@@ -1,2611 +1,3211 @@
 const signs = [
   {
-    URL: './images/A_lot.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+     URL: './images/A_lot.gif',      
     name: 'A lot',
-  },
-  {
-    URL: './images/Abandon.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Bent 5',
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'Bent 5',
+    
+      },
+      {
+     URL: './images/Abandon.gif',   
     name: 'Abandon',
-  },
-  {
-    URL: './images/Abortion.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'S',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'S',
+    
+      },
+      {
+     URL: './images/Abortion.gif',   
     name: 'Abortion',
-  },
-  {
-    URL: './images/Addicted.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Open B',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'palm',
+    handshape: 'Open B',
+    
+      },
+      {
+     URL: './images/Addicted.gif',   
     name: 'Addicted',
-  },
-  {
-    URL: './images/Advise.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'X',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'face',
+    handshape: 'X',
+    
+      },
+      {
+     URL: './images/Advise.gif',   
     name: 'Advise',
-  },
-  {
-    URL: './images/Africa.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Open B',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'Open B',
+    
+      },
+      {
+     URL: './images/Africa.gif',   
     name: 'Africa',
-  },
-  {
-    URL: './images/Alcohol.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '5',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: '5',
+    
+      },
+      {
+     URL: './images/Alcohol.gif',   
     name: 'Alcohol',
-  },
-  {
-    URL: './images/All_night.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '1L',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: '1L',
+    
+      },
+      {
+     URL: './images/All_night.gif',   
     name: 'All night',
-  },
-  {
-    URL: './images/Alone.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'B',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'arm',
+    handshape: 'B',
+    
+      },
+      {
+     URL: './images/Alone.gif',   
     name: 'Alone',
-  },
-  {
-    URL: './images/Announce.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '1',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'inspace',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Announce.gif',   
     name: 'Announce',
-  },
-  {
-    URL: './images/Answer.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '1',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'face',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Answer.gif',   
     name: 'Answer',
-  },
-  {
-    URL: './images/Applause.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '1',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'face',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Applause.gif',   
     name: 'Applause',
-  },
-  {
-    URL: './images/Apple.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Open B',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'palm',
+    handshape: 'Open B',
+    
+      },
+      {
+     URL: './images/Apple.gif',   
     name: 'Apple',
-  },
-  {
-    URL: './images/Appointment.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Baby O',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: 'Baby O',
+    
+      },
+      {
+     URL: './images/Appointment.gif',   
     name: 'Appointment',
-  },
-  {
-    URL: './images/Association.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'S',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'hand',
+    handshape: 'S',
+    
+      },
+      {
+     URL: './images/Association.gif',   
     name: 'Association',
-  },
-  {
-    URL: './images/Australia.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Open A',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'hand',
+    handshape: 'Open A',
+    
+      },
+      {
+     URL: './images/Australia.gif',   
     name: 'Australia',
-  },
-  {
-    URL: './images/Authority.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '8',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'torso',
+    handshape: '8',
+    
+      },
+      {
+     URL: './images/Authority.gif',   
     name: 'Authority',
-  },
-  {
-    URL: './images/Awful.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Open A',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'arm',
+    handshape: 'Open A',
+    
+      },
+      {
+     URL: './images/Awful.gif',   
     name: 'Awful',
-  },
-  {
-    URL: './images/Bad.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '8',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'face',
+    handshape: '8',
+    
+      },
+      {
+     URL: './images/Bad.gif',   
     name: 'Bad',
-  },
-  {
-    URL: './images/Ball.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Open B',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'face',
+    handshape: 'Open B',
+    
+      },
+      {
+     URL: './images/Ball.gif',   
     name: 'Ball',
-  },
-  {
-    URL: './images/Balloon.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Bent 5',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: 'Bent 5',
+    
+      },
+      {
+     URL: './images/Balloon.gif',   
     name: 'Balloon',
-  },
-  {
-    URL: './images/Beard.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Bent 5',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'face',
+    handshape: 'Bent 5',
+    
+      },
+      {
+     URL: './images/Beard.gif',   
     name: 'Beard',
-  },
-  {
-    URL: './images/Beautiful.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Bent 5',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'face',
+    handshape: 'Bent 5',
+    
+      },
+      {
+     URL: './images/Beautiful.gif',   
     name: 'Beautiful',
-  },
-  {
-    URL: './images/Become.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '5',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'face',
+    handshape: '5',
+    
+      },
+      {
+     URL: './images/Become.gif',   
     name: 'Become',
-  },
-  {
-    URL: './images/Bee.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Open B',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'palm',
+    handshape: 'Open B',
+    
+      },
+      {
+     URL: './images/Bee.gif',   
     name: 'Bee',
-  },
-  {
-    URL: './images/Book.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'F',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'face',
+    handshape: 'F',
+    
+      },
+      {
+     URL: './images/Book.gif',   
     name: 'Book',
-  },
-  {
-    URL: './images/Boy.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Open B',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'palm',
+    handshape: 'Open B',
+    
+      },
+      {
+     URL: './images/Boy.gif',   
     name: 'Boy',
-  },
-  {
-    URL: './images/Bread.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Flattened O',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'headside',
+    handshape: 'Flattened O',
+    
+      },
+      {
+     URL: './images/Bread.gif',   
     name: 'Bread',
-  },
-  {
-    URL: './images/Breathe.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Bent B',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'Bent B',
+    
+      },
+      {
+     URL: './images/Breathe.gif',   
     name: 'Breathe',
-  },
-  {
-    URL: './images/Bridge.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '5',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'torso',
+    handshape: '5',
+    
+      },
+      {
+     URL: './images/Bridge.gif',   
     name: 'Bridge',
-  },
-  {
-    URL: './images/Business.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'V',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'arm',
+    handshape: 'V',
+    
+      },
+      {
+     URL: './images/Business.gif',   
     name: 'Business',
-  },
-  {
-    URL: './images/But.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Open B',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'Open B',
+    
+      },
+      {
+     URL: './images/But.gif',   
     name: 'But',
-  },
-  {
-    URL: './images/Cafeteria.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '1',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'hand',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Cafeteria.gif',   
     name: 'Cafeteria',
-  },
-  {
-    URL: './images/Cat.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'C',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: 'C',
+    
+      },
+      {
+     URL: './images/Cat.gif',   
     name: 'Cat',
-  },
-  {
-    URL: './images/Cereal.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'F',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'headside',
+    handshape: 'F',
+    
+      },
+      {
+     URL: './images/Cereal.gif',   
     name: 'Cereal',
-  },
-  {
-    URL: './images/Character.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Open B',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'torso',
+    handshape: 'Open B',
+    
+      },
+      {
+     URL: './images/Character.gif',   
     name: 'Character',
-  },
-  {
-    URL: './images/Checkers.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'C',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'torso',
+    handshape: 'C',
+    
+      },
+      {
+     URL: './images/Checkers.gif',   
     name: 'Checkers',
-  },
-  {
-    URL: './images/Checking-account.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'C',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'C',
+    
+      },
+      {
+     URL: './images/Checking-account.gif',   
     name: 'Checking account',
-  },
-  {
-    URL: './images/Chicago.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Bent L',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'Bent L',
+    
+      },
+      {
+     URL: './images/Chicago.gif',   
     name: 'Chicago',
-  },
-  {
-    URL: './images/Choke.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'C',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'C',
+    
+      },
+      {
+     URL: './images/Choke.gif',   
     name: 'Choke',
-  },
-
-  {
-    URL: './images/Christmas.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'C',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'C',
+    
+      },
+      {
+     URL: './images/Christmas.gif',   
     name: 'Christmas',
-  },
-  {
-    URL: './images/Cigarette.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'C',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'C',
+    
+      },
+      {
+     URL: './images/Cigarette.gif',   
     name: 'Cigarette',
-  },
-  {
-    URL: './images/Close_window.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '1L',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: '1L',
+    
+      },
+      {
+     URL: './images/Close_window.gif',   
     name: 'Close window',
-  },
-  {
-    URL: './images/Close.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Open B',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'Open B',
+    
+      },
+      {
+     URL: './images/Close.gif',   
     name: 'Close',
-  },
-  {
-    URL: './images/Coffee.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'B ',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'face',
+    handshape: 'B ',
+    
+      },
+      {
+     URL: './images/Coffee.gif',   
     name: 'Coffee',
-  },
-  {
-    URL: './images/Coins.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'S',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'S',
+    
+      },
+      {
+     URL: './images/Coins.gif',   
     name: 'Coins',
-  },
-  {
-    URL: './images/Collect.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'F',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'palm',
+    handshape: 'F',
+    
+      },
+      {
+     URL: './images/Collect.gif',   
     name: 'Collect',
-  },
-  {
-    URL: './images/Color.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Bent 5',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'palm',
+    handshape: 'Bent 5',
+    
+      },
+      {
+     URL: './images/Color.gif',   
     name: 'Color',
-  },
-  {
-    URL: './images/Computer.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '5',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: '5',
+    
+      },
+      {
+     URL: './images/Computer.gif',   
     name: 'Computer',
-  },
-  {
-    URL: './images/Conflict.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'C',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'arm',
+    handshape: 'C',
+    
+      },
+      {
+     URL: './images/Conflict.gif',   
     name: 'Conflict',
-  },
-  {
-    URL: './images/Contact.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '1',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'hand',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Contact.gif',   
     name: 'Contact',
-  },
-  {
-    URL: './images/Cook.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Open 8',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'Open 8',
+    
+      },
+      {
+     URL: './images/Cook.gif',   
     name: 'Cook',
-  },
-  {
-    URL: './images/Cooking.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Open B',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'hand',
+    handshape: 'Open B',
+    
+      },
+      {
+     URL: './images/Cooking.gif',   
     name: 'Cooking',
-  },
-  {
-    URL: './images/Cooperate.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Open B',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'Open B',
+    
+      },
+      {
+     URL: './images/Cooperate.gif',   
     name: 'Cooperate',
-  },
-  {
-    URL: './images/Country.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'F',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'F',
+    
+      },
+      {
+     URL: './images/Country.gif',   
     name: 'Country',
-  },
-  {
-    URL: './images/Cousin.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Open B',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'arm',
+    handshape: 'Open B',
+    
+      },
+      {
+     URL: './images/Cousin.gif',   
     name: 'Cousin',
-  },
-  {
-    URL: './images/Cow.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'C',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'headside',
+    handshape: 'C',
+    
+      },
+      {
+     URL: './images/Cow.gif',   
     name: 'Cow',
-  },
-  {
-    URL: './images/Crazy.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Y',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'headside',
+    handshape: 'Y',
+    
+      },
+      {
+     URL: './images/Crazy.gif',   
     name: 'Crazy',
-  },
-  {
-    URL: './images/Cry.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '1',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'headside',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Cry.gif',   
     name: 'Cry',
-  },
-  {
-    URL: './images/Curly.gif',
-    hands: 'Ek',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '1',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Curly.gif',   
     name: 'Curly',
-  },
-
-  {
-    URL: './images/Dance.gif',
-    hands: 'Dho',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Bent 5',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'headside',
+    handshape: 'Bent 5',
+    
+      },
+      {
+     URL: './images/Dance.gif',   
     name: 'Dance',
-  },
-  {
-    URL: './images/Dim.gif',
-    hands: 'Dho',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'V',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'palm',
+    handshape: 'V',
+    
+      },
+      {
+     URL: './images/Dim.gif',   
     name: 'Dim',
-  },
-  {
-    URL: './images/Dirty.gif',
-    hands: 'Dho',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '5',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: '5',
+    
+      },
+      {
+     URL: './images/Dirty.gif',   
     name: 'Dirty',
-  },
-  {
-    URL: './images/Disappear.gif',
-    hands: 'Dho',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '5',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: '5',
+    
+      },
+      {
+     URL: './images/Disappear.gif',   
     name: 'Disappear',
-  },
-  {
-    URL: './images/Distribute.gif',
-    hands: 'Dho',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '1',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'hand',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Distribute.gif',   
     name: 'Distribute',
-  },
-  {
-    URL: './images/Drink.gif',
-    hands: 'Dho',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Flattened O',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'torso',
+    handshape: 'Flattened O',
+    
+      },
+      {
+     URL: './images/Drink.gif',   
     name: 'Drink',
-  },
-  {
-    URL: './images/Drunk.gif',
-    hands: 'Dho',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'C',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'face',
+    handshape: 'C',
+    
+      },
+      {
+     URL: './images/Drunk.gif',   
     name: 'Drunk',
-  },
-  {
-    URL: './images/During.gif',
-    hands: 'Dho',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Open A',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'Open A',
+    
+      },
+      {
+     URL: './images/During.gif',   
     name: 'During',
-  },
-  {
-    URL: './images/Dye.gif',
-    hands: 'Dho',
-    handshape: 'A',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '1',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Dye.gif',   
     name: 'Dye',
-  },
-  {
-    URL: './images/E-mail.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
-    name: 'Email',
-  },
-  {
-    URL: './images/Earth.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'F',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'inspace',
+    handshape: 'F',
+    
+      },
+      {
+     URL: './images/Earth.gif',   
     name: 'Earth',
-  },
-  {
-    URL: './images/Eat.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Open 8',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'Open 8',
+    
+      },
+      {
+     URL: './images/Eat.gif',   
     name: 'Eat',
-  },
-  {
-    URL: './images/Egypt.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Flattened O',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: 'Flattened O',
+    
+      },
+      {
+     URL: './images/Egypt.gif',   
     name: 'Egypt',
-  },
-  {
-    URL: './images/Either.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'X',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: 'X',
+    
+      },
+      {
+     URL: './images/Either.gif',   
     name: 'Either',
-  },
-  {
-    URL: './images/Empty.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'V',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'V',
+    
+      },
+      {
+     URL: './images/E-mail.gif',   
+    name: 'Email',
+    handshape: 'E',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'hand',
+    handshape: 'E',
+    
+      },
+      {
+     URL: './images/Empty.gif',   
     name: 'Empty',
-  },
-  {
-    URL: './images/Encyclopedia.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Open 8',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'hand',
+    handshape: 'Open 8',
+    
+      },
+      {
+     URL: './images/Encyclopedia.gif',   
     name: 'Encyclopedia',
-  },
-  {
-    URL: './images/Episcopal.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'E',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'palm',
+    handshape: 'E',
+    
+      },
+      {
+     URL: './images/Episcopal.gif',   
     name: 'Episcopal',
-  },
-  {
-    URL: './images/Everyday.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '1',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'arm',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Everyday.gif',   
     name: 'Everyday',
-  },
-  {
-    URL: './images/Excited.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Open A',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'headside',
+    handshape: 'Open A',
+    
+      },
+      {
+     URL: './images/Excited.gif',   
     name: 'Excited',
-  },
-  {
-    URL: './images/Experience.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Open 8',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'torso',
+    handshape: 'Open 8',
+    
+      },
+      {
+     URL: './images/Experience.gif',   
     name: 'Experience',
-  },
-  {
-    URL: './images/Express.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Flattened O',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'headside',
+    handshape: 'Flattened O',
+    
+      },
+      {
+     URL: './images/Express.gif',   
     name: 'Express',
-  },
-  {
-    URL: './images/Family.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'A',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'torso',
+    handshape: 'A',
+    
+      },
+      {
+     URL: './images/Family.gif',   
     name: 'Family',
-  },
-  {
-    URL: './images/Famous.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'F ',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'F ',
+    
+      },
+      {
+     URL: './images/Famous.gif',   
     name: 'Famous',
-  },
-  {
-    URL: './images/Fancy.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '1',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Fancy.gif',   
     name: 'Fancy',
-  },
-  {
-    URL: './images/Farm.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '5',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'torso',
+    handshape: '5',
+    
+      },
+      {
+     URL: './images/Farm.gif',   
     name: 'Farm',
-  },
-  {
-    URL: './images/Feedback.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '5',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'face',
+    handshape: '5',
+    
+      },
+      {
+     URL: './images/Feedback.gif',   
     name: 'Feedback',
-  },
-  {
-    URL: './images/Fight.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '8',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: '8',
+    
+      },
+      {
+     URL: './images/Fight.gif',   
     name: 'Fight',
-  },
-  {
-    URL: './images/Finally.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'S',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'S',
+    
+      },
+      {
+     URL: './images/Finally.gif',   
     name: 'Finally',
-  },
-  {
-    URL: './images/Fine.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '1',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'face',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Fine.gif',   
     name: 'Fine',
-  },
-  {
-    URL: './images/Fingerspell.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '5',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'torso',
+    handshape: '5',
+    
+      },
+      {
+     URL: './images/Fingerspell.gif',   
     name: 'Fingerspell',
-  },
-  {
-    URL: './images/Flashlight.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Bent 5',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'inspace',
+    handshape: 'Bent 5',
+    
+      },
+      {
+     URL: './images/Flashlight.gif',   
     name: 'Flashlight',
-  },
-  {
-    URL: './images/Flat.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Bent L',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'inspace',
+    handshape: 'Bent L',
+    
+      },
+      {
+     URL: './images/Flat.gif',   
     name: 'Flat',
-  },
-  {
-    URL: './images/Focus.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Bent B',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'hand',
+    handshape: 'Bent B',
+    
+      },
+      {
+     URL: './images/Focus.gif',   
     name: 'Focus',
-  },
-  {
-    URL: './images/Football.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Open B',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'Open B',
+    
+      },
+      {
+     URL: './images/Football.gif',   
     name: 'Football',
-  },
-  {
-    URL: './images/Force.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '5',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'inspace',
+    handshape: '5',
+    
+      },
+      {
+     URL: './images/Force.gif',   
     name: 'Force',
-  },
-  {
-    URL: './images/Foreign.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'C',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'hand',
+    handshape: 'C',
+    
+      },
+      {
+     URL: './images/Foreign.gif',   
     name: 'Foreign',
-  },
-  {
-    URL: './images/Fork.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'F',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'arm',
+    handshape: 'F',
+    
+      },
+      {
+     URL: './images/Fork.gif',   
     name: 'Fork',
-  },
-  {
-    URL: './images/Formerly.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'V',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'palm',
+    handshape: 'V',
+    
+      },
+      {
+     URL: './images/Formerly.gif',   
     name: 'Formerly',
-  },
-  {
-    URL: './images/Free.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Bent 5',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'torso',
+    handshape: 'Bent 5',
+    
+      },
+      {
+     URL: './images/Free.gif',   
     name: 'Free',
-  },
-  {
-    URL: './images/Freeze.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'F',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'F',
+    
+      },
+      {
+     URL: './images/Freeze.gif',   
     name: 'Freeze',
-  },
-  {
-    URL: './images/Friendly.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '5',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: '5',
+    
+      },
+      {
+     URL: './images/Friendly.gif',   
     name: 'Friendly',
-  },
-  {
-    URL: './images/From-now-on.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '5',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: '5',
+    
+      },
+      {
+     URL: './images/From-now-on.gif',   
     name: 'From now on',
-  },
-  {
-    URL: './images/Funeral.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Okati',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Open B',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'hand',
+    handshape: 'Open B',
+    
+      },
+      {
+     URL: './images/Funeral.gif',   
     name: 'Funeral',
-  },
-  {
-    URL: './images/General.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Rendu',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'V',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'V',
+    
+      },
+      {
+     URL: './images/General.gif',   
     name: 'General',
-  },
-  {
-    URL: './images/Get.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Rendu',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Open B',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'Open B',
+    
+      },
+      {
+     URL: './images/Get.gif',   
     name: 'Get',
-  },
-  {
-    URL: './images/Giraffe.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Rendu',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '5',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: '5',
+    
+      },
+      {
+     URL: './images/Giraffe.gif',   
     name: 'Giraffe',
-  },
-  {
-    URL: './images/Girl.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Rendu',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'C',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'torso',
+    handshape: 'C',
+    
+      },
+      {
+     URL: './images/Girl.gif',   
     name: 'Girl',
-  },
-  {
-    URL: './images/Glasses.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Rendu',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Open A',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'headside',
+    handshape: 'Open A',
+    
+      },
+      {
+     URL: './images/Glasses.gif',   
     name: 'Glasses',
-  },
-  {
-    URL: './images/Globe.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Rendu',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Bent L',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'headside',
+    handshape: 'Bent L',
+    
+      },
+      {
+     URL: './images/Globe.gif',   
     name: 'Globe',
-  },
-  {
-    URL: './images/Go.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Rendu',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Bent 5',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'Bent 5',
+    
+      },
+      {
+     URL: './images/Go.gif',   
     name: 'Go',
-  },
-  {
-    URL: './images/Good_luck.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Rendu',
-    location: 'Uno',
-    movement: 'Onru',
-    name: 'Good luck',
-  },
-  {
-    URL: './images/Good.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Rendu',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '1',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Good.gif',   
     name: 'Good',
-  },
-  {
-    URL: './images/Grammar.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Rendu',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Open B',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'face',
+    handshape: 'Open B',
+    
+      },
+      {
+     URL: './images/Good_luck.gif',   
+    name: 'Good luck',
+    handshape: '5',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'face',
+    handshape: '5',
+    
+      },
+      {
+     URL: './images/Grammar.gif',   
     name: 'Grammar',
-  },
-  {
-    URL: './images/Grandfather.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Rendu',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'G',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'inspace',
+    handshape: 'G',
+    
+      },
+      {
+     URL: './images/Grandfather.gif',   
     name: 'Grandfather',
-  },
-  {
-    URL: './images/Grandmother.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Rendu',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '5',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: '5',
+    
+      },
+      {
+     URL: './images/Grandmother.gif',   
     name: 'Grandmother',
-  },
-  {
-    URL: './images/Greece.gif',
-    hands: 'Dho',
-    handshape: 'B',
-    'Palm Orientation': 'Rendu',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '5',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: '5',
+    
+      },
+      {
+     URL: './images/Greece.gif',   
     name: 'Greece',
-  },
-  {
-    URL: './images/Hair.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '1',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Hair.gif',   
     name: 'Hair',
-  },
-  {
-    URL: './images/Happen.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'F',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'headside',
+    handshape: 'F',
+    
+      },
+      {
+     URL: './images/Happen.gif',   
     name: 'Happen',
-  },
-  {
-    URL: './images/Hard.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '1',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Hard.gif',   
     name: 'Hard',
-  },
-  {
-    URL: './images/Hate.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Bent V',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'hand',
+    handshape: 'Bent V',
+    
+      },
+      {
+     URL: './images/Hate.gif',   
     name: 'Hate',
-  },
-
-  {
-    URL: './images/Headache.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '8',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: '8',
+    
+      },
+      {
+     URL: './images/Headache.gif',   
     name: 'Headache',
-  },
-  {
-    URL: './images/Hurricane.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: '1',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Hurricane.gif',   
     name: 'Hurricane',
-  },
-  {
-    URL: './images/Hurt.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Uno',
-    movement: 'Onru',
+    handshape: 'Open N',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'Open N',
+    
+      },
+      {
+     URL: './images/Hurt.gif',   
     name: 'Hurt',
-  },
-  {
-    URL: './images/Ignition_off.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: '1',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'inspace',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Ignition_off.gif',   
     name: 'Ignition off',
-  },
-  {
-    URL: './images/Ignore.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'Baby O',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'Baby O',
+    
+      },
+      {
+     URL: './images/Ignore.gif',   
     name: 'Ignore',
-  },
-  {
-    URL: './images/Important.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: '4',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'face',
+    handshape: '4',
+    
+      },
+      {
+     URL: './images/Important.gif',   
     name: 'Important',
-  },
-  {
-    URL: './images/Impossible.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'F',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'F',
+    
+      },
+      {
+     URL: './images/Impossible.gif',   
     name: 'Impossible',
-  },
-  {
-    URL: './images/Include.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'Y',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'palm',
+    handshape: 'Y',
+    
+      },
+      {
+     URL: './images/Include.gif',   
     name: 'Include',
-  },
-  {
-    URL: './images/Intercourse.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: '5',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'hand',
+    handshape: '5',
+    
+      },
+      {
+     URL: './images/Intercourse.gif',   
     name: 'Intercourse',
-  },
-  {
-    URL: './images/Internet.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'V',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'palm',
+    handshape: 'V',
+    
+      },
+      {
+     URL: './images/Internet.gif',   
     name: 'Internet',
-  },
-  {
-    URL: './images/Interpret.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'Open 8',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'Open 8',
+    
+      },
+      {
+     URL: './images/Interpret.gif',   
     name: 'Interpret',
-  },
-  {
-    URL: './images/Introduce.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'F',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'F',
+    
+      },
+      {
+     URL: './images/Introduce.gif',   
     name: 'Introduce',
-  },
-  {
-    URL: './images/Island.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'Open B',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'Open B',
+    
+      },
+      {
+     URL: './images/Island.gif',   
     name: 'Island',
-  },
-  {
-    URL: './images/Jesus.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'I',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'I',
+    
+      },
+      {
+     URL: './images/Jesus.gif',   
     name: 'Jesus',
-  },
-  {
-    URL: './images/Jewish.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'Open 8',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'palm',
+    handshape: 'Open 8',
+    
+      },
+      {
+     URL: './images/Jewish.gif',   
     name: 'Jewish',
-  },
-  {
-    URL: './images/Kid.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'Bent B',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: 'Bent B',
+    
+      },
+      {
+     URL: './images/Kid.gif',   
     name: 'Kid',
-  },
-  {
-    URL: './images/Kiss.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: '1L',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: '1L',
+    
+      },
+      {
+     URL: './images/Kiss.gif',   
     name: 'Kiss',
-  },
-  {
-    URL: './images/Kitchen.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'Flattened O',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'Flattened O',
+    
+      },
+      {
+     URL: './images/Kitchen.gif',   
     name: 'Kitchen',
-  },
-  {
-    URL: './images/Know.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'K',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'palm',
+    handshape: 'K',
+    
+      },
+      {
+     URL: './images/Know.gif',   
     name: 'Know',
-  },
-  {
-    URL: './images/Laugh.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'Bent B',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'headside',
+    handshape: 'Bent B',
+    
+      },
+      {
+     URL: './images/Laugh.gif',   
     name: 'Laugh',
-  },
-  {
-    URL: './images/Learn.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'Bent L',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: 'Bent L',
+    
+      },
+      {
+     URL: './images/Learn.gif',   
     name: 'Learn',
-  },
-  {
-    URL: './images/Light-match.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: '5',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'palm',
+    handshape: '5',
+    
+      },
+      {
+     URL: './images/Light-match.gif',   
     name: 'Light match',
-  },
-  {
-    URL: './images/Line.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'Baby O',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'palm',
+    handshape: 'Baby O',
+    
+      },
+      {
+     URL: './images/Line.gif',   
     name: 'Line',
-  },
-  {
-    URL: './images/Look.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'I',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'hand',
+    handshape: 'I',
+    
+      },
+      {
+     URL: './images/Look.gif',   
     name: 'Look',
-  },
-  {
-    URL: './images/Lose-weight.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'V',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: 'V',
+    
+      },
+      {
+     URL: './images/Lose-weight.gif',   
     name: 'Lose weight',
-  },
-  {
-    URL: './images/Make.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'Bent L',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'torso',
+    handshape: 'Bent L',
+    
+      },
+      {
+     URL: './images/Make.gif',   
     name: 'Make',
-  },
-  {
-    URL: './images/Marry.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'S',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'hand',
+    handshape: 'S',
+    
+      },
+      {
+     URL: './images/Marry.gif',   
     name: 'Marry',
-  },
-  {
-    URL: './images/Match.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'Bent B',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'Bent B',
+    
+      },
+      {
+     URL: './images/Match.gif',   
     name: 'Match',
-  },
-  {
-    URL: './images/Melon.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'Bent 5',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'Bent 5',
+    
+      },
+      {
+     URL: './images/Melon.gif',   
     name: 'Melon',
-  },
-  {
-    URL: './images/Member.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: '8',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: '8',
+    
+      },
+      {
+     URL: './images/Member.gif',   
     name: 'Member',
-  },
-  {
-    URL: './images/Merge.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'Flattened O',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'torso',
+    handshape: 'Flattened O',
+    
+      },
+      {
+     URL: './images/Merge.gif',   
     name: 'Merge',
-  },
-  {
-    URL: './images/Messed-up.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: '5',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: '5',
+    
+      },
+      {
+     URL: './images/Messed-up.gif',   
     name: 'Messed up',
-  },
-  {
-    URL: './images/Milk.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'Bent 5',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'Bent 5',
+    
+      },
+      {
+     URL: './images/Milk.gif',   
     name: 'Milk',
-  },
-  {
-    URL: './images/Misunderstand.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'S',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'inspace',
+    handshape: 'S',
+    
+      },
+      {
+     URL: './images/Misunderstand.gif',   
     name: 'Misunderstand',
-  },
-  {
-    URL: './images/Mix-up.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'V',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'face',
+    handshape: 'V',
+    
+      },
+      {
+     URL: './images/Mix-up.gif',   
     name: 'Mix up',
-  },
-  {
-    URL: './images/More.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'Bent 5',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'inspace',
+    handshape: 'Bent 5',
+    
+      },
+      {
+     URL: './images/More.gif',   
     name: 'More',
-  },
-  {
-    URL: './images/Mosquito.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'Flattened O',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'Flattened O',
+    
+      },
+      {
+     URL: './images/Mosquito.gif',   
     name: 'Mosquito',
-  },
-  {
-    URL: './images/Mustache.gif',
-    hands: 'Dho',
-    handshape: 'C',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'Open 8',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'face',
+    handshape: 'Open 8',
+    
+      },
+      {
+     URL: './images/Mustache.gif',   
     name: 'Mustache',
-  },
-  {
-    URL: './images/Nervous.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'G',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'face',
+    handshape: 'G',
+    
+      },
+      {
+     URL: './images/Nervous.gif',   
     name: 'Nervous',
-  },
-  {
-    URL: './images/Nigeria.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: '5',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'inspace',
+    handshape: '5',
+    
+      },
+      {
+     URL: './images/Nigeria.gif',   
     name: 'Nigeria',
-  },
-  {
-    URL: './images/None.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'N',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: 'N',
+    
+      },
+      {
+     URL: './images/None.gif',   
     name: 'None',
-  },
-  {
-    URL: './images/Nose.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Rendu',
-    location: 'Tres',
-    movement: 'Onru',
+    handshape: 'O',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'O',
+    
+      },
+      {
+     URL: './images/Nose.gif',   
     name: 'Nose',
-  },
-  {
-    URL: './images/Octopus.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Rendu',
-    location: 'Dos',
-    movement: 'Onru',
+    handshape: '1',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'face',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Octopus.gif',   
     name: 'Octopus',
-  },
-  {
-    URL: './images/Old.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Rendu',
-    location: 'Dos',
-    movement: 'Onru',
+    handshape: 'Flattened O',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'inspace',
+    handshape: 'Flattened O',
+    
+      },
+      {
+     URL: './images/Old.gif',   
     name: 'Old',
-  },
-  {
-    URL: './images/Olympics.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Rendu',
-    location: 'Dos',
-    movement: 'Onru',
+    handshape: 'O',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: 'O',
+    
+      },
+      {
+     URL: './images/Olympics.gif',   
     name: 'Olympics',
-  },
-  {
-    URL: './images/Orange.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Rendu',
-    location: 'Dos',
-    movement: 'Onru',
+    handshape: 'F ',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'F ',
+    
+      },
+      {
+     URL: './images/Orange.gif',   
     name: 'Orange',
-  },
-  {
-    URL: './images/Orthodox.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Rendu',
-    location: 'Dos',
-    movement: 'Onru',
+    handshape: 'S',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: 'S',
+    
+      },
+      {
+     URL: './images/Orthodox.gif',   
     name: 'Orthodox',
-  },
-  {
-    URL: './images/Owl.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Rendu',
-    location: 'Dos',
-    movement: 'Onru',
+    handshape: 'F',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'palm',
+    handshape: 'F',
+    
+      },
+      {
+     URL: './images/Owl.gif',   
     name: 'Owl',
-  },
-  {
-    URL: './images/Pancake.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Onru',
+    handshape: 'O',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: 'O',
+    
+      },
+      {
+     URL: './images/Pancake.gif',   
     name: 'Pancake',
-  },
-  {
-    URL: './images/Paper.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Onru',
+    handshape: 'Open B',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'palm',
+    handshape: 'Open B',
+    
+      },
+      {
+     URL: './images/Paper.gif',   
     name: 'Paper',
-  },
-  {
-    URL: './images/Parallel.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Onru',
+    handshape: '5',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'palm',
+    handshape: '5',
+    
+      },
+      {
+     URL: './images/Parallel.gif',   
     name: 'Parallel',
-  },
-  {
-    URL: './images/Pay-attention.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Onru',
+    handshape: '1',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Pay-attention.gif',   
     name: 'Pay attention',
-  },
-  {
-    URL: './images/Pea-brain.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Onru',
+    handshape: 'Open B',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'headside',
+    handshape: 'Open B',
+    
+      },
+      {
+     URL: './images/Pea-brain.gif',   
     name: 'Pea brain',
-  },
-  {
-    URL: './images/Penis.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Onru',
+    handshape: 'G',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'headside',
+    handshape: 'G',
+    
+      },
+      {
+     URL: './images/Penis.gif',   
     name: 'Penis',
-  },
-  {
-    URL: './images/People_audience.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Onru',
+    handshape: 'K',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: 'K',
+    
+      },
+      {
+     URL: './images/People_audience.gif',   
     name: 'People audience',
-  },
-  {
-    URL: './images/Picture.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Onru',
+    handshape: 'K',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'K',
+    
+      },
+      {
+     URL: './images/Picture.gif',   
     name: 'Picture',
-  },
-  {
-    URL: './images/Pig.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Onru',
+    handshape: 'C',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'face',
+    handshape: 'C',
+    
+      },
+      {
+     URL: './images/Pig.gif',   
     name: 'Pig',
-  },
-  {
-    URL: './images/Pillow.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Onru',
+    handshape: 'Bent B',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: 'Bent B',
+    
+      },
+      {
+     URL: './images/Pillow.gif',   
     name: 'Pillow',
-  },
-  {
-    URL: './images/Play_around.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Onru',
+    handshape: 'Bent 5',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'headside',
+    handshape: 'Bent 5',
+    
+      },
+      {
+     URL: './images/Play_around.gif',   
     name: 'Play around',
-  },
-  {
-    URL: './images/Play.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Onru',
+    handshape: 'Y',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'Y',
+    
+      },
+      {
+     URL: './images/Play.gif',   
     name: 'Play',
-  },
-  {
-    URL: './images/Polite.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Onru',
+    handshape: 'Y',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'inspace',
+    handshape: 'Y',
+    
+      },
+      {
+     URL: './images/Polite.gif',   
     name: 'Polite',
-  },
-  {
-    URL: './images/Poor.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Onru',
+    handshape: '5',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'torso',
+    handshape: '5',
+    
+      },
+      {
+     URL: './images/Poor.gif',   
     name: 'Poor',
-  },
-  {
-    URL: './images/Postpone.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Onru',
+    handshape: 'Flattened O',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'arm',
+    handshape: 'Flattened O',
+    
+      },
+      {
+     URL: './images/Postpone.gif',   
     name: 'Postpone',
-  },
-  {
-    URL: './images/Potato.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Onru',
+    handshape: 'F ',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'hand',
+    handshape: 'F ',
+    
+      },
+      {
+     URL: './images/Potato.gif',   
     name: 'Potato',
-  },
-  {
-    URL: './images/Predict.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Onru',
+    handshape: 'Bent V',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'Bent V',
+    
+      },
+      {
+     URL: './images/Predict.gif',   
     name: 'Predict',
-  },
-  {
-    URL: './images/Pregnant.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Onru',
+    handshape: 'V',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'face',
+    handshape: 'V',
+    
+      },
+      {
+     URL: './images/Pregnant.gif',   
     name: 'Pregnant',
-  },
-  {
-    URL: './images/Priest.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Onru',
+    handshape: '5',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'hand',
+    handshape: '5',
+    
+      },
+      {
+     URL: './images/Priest.gif',   
     name: 'Priest',
-  },
-  {
-    URL: './images/Puerto_Rico.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Onru',
+    handshape: 'G',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'torso',
+    handshape: 'G',
+    
+      },
+      {
+     URL: './images/Puerto_Rico.gif',   
     name: 'Puerto Rico',
-  },
-  {
-    URL: './images/Puff-smoke.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Onru',
+    handshape: 'K',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'hand',
+    handshape: 'K',
+    
+      },
+      {
+     URL: './images/Puff-smoke.gif',   
     name: 'Puff smoke',
-  },
-  {
-    URL: './images/Raccoon.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'O',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'face',
+    handshape: 'O',
+    
+      },
+      {
+     URL: './images/Raccoon.gif',   
     name: 'Raccoon',
-  },
-  {
-    URL: './images/Race.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'V',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: 'V',
+    
+      },
+      {
+     URL: './images/Race.gif',   
     name: 'Race',
-  },
-  {
-    URL: './images/Radio.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'Open A',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'Open A',
+    
+      },
+      {
+     URL: './images/Radio.gif',   
     name: 'Radio',
-  },
-  {
-    URL: './images/Rainbow.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Rainbow',
-  },
-  {
-    URL: './images/Rat.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Rat',
-  },
-  {
-    URL: './images/Read.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Read',
-  },
-  {
-    URL: './images/Really.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Really',
-  },
-  {
-    URL: './images/Reduce.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Reduce',
-  },
-  {
-    URL: './images/Replace.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Replace',
-  },
-  {
-    URL: './images/Responsibility.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Responsibility',
-  },
-  {
-    URL: './images/Ride.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Ride',
-  },
-
-  {
-    URL: './images/Road.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Road',
-  },
-  {
-    URL: './images/Roommate.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Roommate',
-  },
-  {
-    URL: './images/Ruin.gif',
-    hands: 'Dho',
-    handshape: 'D',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Ruin',
-  },
-  {
-    URL: './images/Salt.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'Bent 5',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'headside',
+    handshape: 'Bent 5',
+    
+      },
+      {
+     URL: './images/Rainbow.gif',   
+    name:'Rainbow',
+    handshape: '4',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: '4',
+    
+      },
+      {
+     URL: './images/Rat.gif',   
+    name:'Rat',
+    handshape: 'R',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: 'R',
+    
+      },
+      {
+     URL: './images/Read.gif',   
+    name:'Read',
+    handshape: 'V',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'palm',
+    handshape: 'V',
+    
+      },
+      {
+     URL: './images/Really.gif',   
+    name:'Really',
+    handshape: '1',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'face',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Reduce.gif',   
+    name:'Reduce',
+    handshape: 'Flattened O',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'hand',
+    handshape: 'Flattened O',
+    
+      },
+      {
+     URL: './images/Replace.gif',   
+    name:'Replace',
+    handshape: 'Flattened O',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'inspace',
+    handshape: 'Flattened O',
+    
+      },
+      {
+     URL: './images/Responsibility.gif',   
+    name:'Responsibility',
+    handshape: 'Bent B',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'arm',
+    handshape: 'Bent B',
+    
+      },
+      {
+     URL: './images/Ride.gif',   
+    name:'Ride',
+    handshape: 'Bent V',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'hand',
+    handshape: 'Bent V',
+    
+      },
+      {
+     URL: './images/Road.gif',   
+    name:'Road',
+    handshape: 'Open B',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'Open B',
+    
+      },
+      {
+     URL: './images/Roommate.gif',   
+    name:'Roommate',
+    handshape: 'Bent 5',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'Bent 5',
+    
+      },
+      {
+     URL: './images/Ruin.gif',   
+    name:'Ruin',
+    handshape: 'X',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'hand',
+    handshape: 'X',
+    
+      },
+      {
+     URL: './images/Salt.gif',   
     name: 'Salt',
-  },
-  {
-    URL: './images/San_Francisco.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'V',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'V',
+    
+      },
+      {
+     URL: './images/San_Francisco.gif',   
     name: 'San Francisco',
-  },
-  {
-    URL: './images/Sarcasm.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'S',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'S',
+    
+      },
+      {
+     URL: './images/Sarcasm.gif',   
     name: 'Sarcasm',
-  },
-  {
-    URL: './images/Save-money.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: '1L',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'face',
+    handshape: '1L',
+    
+      },
+      {
+     URL: './images/Save-money.gif',   
     name: 'Save money',
-  },
-  {
-    URL: './images/School.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'Flattened O',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'Flattened O',
+    
+      },
+      {
+     URL: './images/School.gif',   
     name: 'School',
-  },
-  {
-    URL: './images/Scotland.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'Open B',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'palm',
+    handshape: 'Open B',
+    
+      },
+      {
+     URL: './images/Scotland.gif',   
     name: 'Scotland',
-  },
-  {
-    URL: './images/Secret.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: '4',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'arm',
+    handshape: '4',
+    
+      },
+      {
+     URL: './images/Secret.gif',   
     name: 'Secret',
-  },
-  {
-    URL: './images/See_saw.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'Open A',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: 'Open A',
+    
+      },
+      {
+     URL: './images/See_saw.gif',   
     name: 'See saw',
-  },
-  {
-    URL: './images/Sentence.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'Bent V',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'inspace',
+    handshape: 'Bent V',
+    
+      },
+      {
+     URL: './images/Sentence.gif',   
     name: 'Sentence',
-  },
-  {
-    URL: './images/Sew.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'F',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'F',
+    
+      },
+      {
+     URL: './images/Sew.gif',   
     name: 'Sew',
-  },
-  {
-    URL: './images/Shave.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'F',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'F',
+    
+      },
+      {
+     URL: './images/Shave.gif',   
     name: 'Shave',
-  },
-  {
-    URL: './images/Shoes.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'Y',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: 'Y',
+    
+      },
+      {
+     URL: './images/Shoes.gif',   
     name: 'Shoes',
-  },
-  {
-    URL: './images/Sick.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'S',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'S',
+    
+      },
+      {
+     URL: './images/Sick.gif',   
     name: 'Sick',
-  },
-  {
-    URL: './images/Silly.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'Open 8',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'face',
+    handshape: 'Open 8',
+    
+      },
+      {
+     URL: './images/Silly.gif',   
     name: 'Silly',
-  },
-  {
-    URL: './images/Simple.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'Y',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: 'Y',
+    
+      },
+      {
+     URL: './images/Simple.gif',   
     name: 'Simple',
-  },
-  {
-    URL: './images/Sit.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'F',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'hand',
+    handshape: 'F',
+    
+      },
+      {
+     URL: './images/Sit.gif',   
     name: 'Sit',
-  },
-  {
-    URL: './images/Smile.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'H',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'hand',
+    handshape: 'H',
+    
+      },
+      {
+     URL: './images/Smile.gif',   
     name: 'Smile',
-  },
-  {
-    URL: './images/Socks.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'Flattened O',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'face',
+    handshape: 'Flattened O',
+    
+      },
+      {
+     URL: './images/Socks.gif',   
     name: 'Socks',
-  },
-  {
-    URL: './images/Speech.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: '1',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Speech.gif',   
     name: 'Speech',
-  },
-  {
-    URL: './images/Spread.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'Bent V',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: 'Bent V',
+    
+      },
+      {
+     URL: './images/Spread.gif',   
     name: 'Spread',
-  },
-  {
-    URL: './images/Square.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'Flattened O',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'hand',
+    handshape: 'Flattened O',
+    
+      },
+      {
+     URL: './images/Square.gif',   
     name: 'Square',
-  },
-  {
-    URL: './images/Stay.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: '1',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Stay.gif',   
     name: 'Stay',
-  },
-  {
-    URL: './images/Steal.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'Y',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'Y',
+    
+      },
+      {
+     URL: './images/Steal.gif',   
     name: 'Steal',
-  },
-  {
-    URL: './images/Steam.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'V',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'arm',
+    handshape: 'V',
+    
+      },
+      {
+     URL: './images/Steam.gif',   
     name: 'Steam',
-  },
-  {
-    URL: './images/Stimulate.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'Bent 5',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'inspace',
+    handshape: 'Bent 5',
+    
+      },
+      {
+     URL: './images/Stimulate.gif',   
     name: 'Stimulate',
-  },
-  {
-    URL: './images/Storm.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: '1',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Storm.gif',   
     name: 'Storm',
-  },
-  {
-    URL: './images/Strict.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'Bent 5',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'Bent 5',
+    
+      },
+      {
+     URL: './images/Strict.gif',   
     name: 'Strict',
-  },
-  {
-    URL: './images/Struggle.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'Bent V',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'face',
+    handshape: 'Bent V',
+    
+      },
+      {
+     URL: './images/Struggle.gif',   
     name: 'Struggle',
-  },
-  {
-    URL: './images/Stuck.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: '1',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'inspace',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Stuck.gif',   
     name: 'Stuck',
-  },
-  {
-    URL: './images/Stuck.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'V',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'face',
+    handshape: 'V',
+    
+      },
+      {
+     URL: './images/Stuck.gif',   
     name: 'Stuck',
-  },
-  {
-    URL: './images/Stupid.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: '5',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'palm',
+    handshape: '5',
+    
+      },
+      {
+     URL: './images/Stupid.gif',   
     name: 'Stupid',
-  },
-  {
-    URL: './images/Subway.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'S',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'face',
+    handshape: 'S',
+    
+      },
+      {
+     URL: './images/Subway.gif',   
     name: 'Subway',
-  },
-  {
-    URL: './images/Summer.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'Y',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'palm',
+    handshape: 'Y',
+    
+      },
+      {
+     URL: './images/Summer.gif',   
     name: 'Summer',
-  },
-  {
-    URL: './images/Swear.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: '1',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Swear.gif',   
     name: 'Swear',
-  },
-  {
-    URL: './images/Sweden.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: '5',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'face',
+    handshape: '5',
+    
+      },
+      {
+     URL: './images/Sweden.gif',   
     name: 'Sweden',
-  },
-  {
-    URL: './images/Swing.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'Flattened O',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'Flattened O',
+    
+      },
+      {
+     URL: './images/Swing.gif',   
     name: 'Swing',
-  },
-  {
-    URL: './images/System.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'H',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'H',
+    
+      },
+      {
+     URL: './images/System.gif',   
     name: 'System',
-  },
-
-  {
-    URL: './images/Take_break.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'S',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'S',
+    
+      },
+      {
+     URL: './images/Take_break.gif',   
     name: 'Take break',
-  },
-  {
-    URL: './images/Talk-to-self.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'Bent B',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'Bent B',
+    
+      },
+      {
+     URL: './images/Talk-to-self.gif',   
     name: 'Talk to self',
-  },
-  {
-    URL: './images/Tall.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'I',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'headside',
+    handshape: 'I',
+    
+      },
+      {
+     URL: './images/Tall.gif',   
     name: 'Tall',
-  },
-  {
-    URL: './images/Tan.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'Bent B',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'inspace',
+    handshape: 'Bent B',
+    
+      },
+      {
+     URL: './images/Tan.gif',   
     name: 'Tan',
-  },
-  {
-    URL: './images/Tape.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'T',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'headside',
+    handshape: 'T',
+    
+      },
+      {
+     URL: './images/Tape.gif',   
     name: 'Tape',
-  },
-  {
-    URL: './images/Temple.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'Open A',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'hand',
+    handshape: 'Open A',
+    
+      },
+      {
+     URL: './images/Temple.gif',   
     name: 'Temple',
-  },
-  {
-    URL: './images/Tend.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'T',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'T',
+    
+      },
+      {
+     URL: './images/Tend.gif',   
     name: 'Tend',
-  },
-  {
-    URL: './images/Thank_you.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'Open 8',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'torso',
+    handshape: 'Open 8',
+    
+      },
+      {
+     URL: './images/Thank_you.gif',   
     name: 'Thank you',
-  },
-  {
-    URL: './images/Thief.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'Open B',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'face',
+    handshape: 'Open B',
+    
+      },
+      {
+     URL: './images/Thief.gif',   
     name: 'Thief',
-  },
-  {
-    URL: './images/Thin.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'N',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: 'N',
+    
+      },
+      {
+     URL: './images/Thin.gif',   
     name: 'Thin',
-  },
-  {
-    URL: './images/Think_opposite.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'F ',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'F ',
+    
+      },
+      {
+     URL: './images/Think_opposite.gif',   
     name: 'Think opposite',
-  },
-  {
-    URL: './images/Thursday.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: '1',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'face',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Thursday.gif',   
     name: 'Thursday',
-  },
-  {
-    URL: './images/Tie.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'T',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'T',
+    
+      },
+      {
+     URL: './images/Tie.gif',   
     name: 'Tie',
-  },
-  {
-    URL: './images/Tiny.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'Baby O',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'Baby O',
+    
+      },
+      {
+     URL: './images/Tiny.gif',   
     name: 'Tiny',
-  },
-  {
-    URL: './images/To-fool.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'Bent L',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'Bent L',
+    
+      },
+      {
+     URL: './images/To-fool.gif',   
     name: 'To-fool',
-  },
-  {
-    URL: './images/Toast.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'A',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'face',
+    handshape: 'A',
+    
+      },
+      {
+     URL: './images/Toast.gif',   
     name: 'Toast',
-  },
-  {
-    URL: './images/Touch-heart.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'Bent V',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'Bent V',
+    
+      },
+      {
+     URL: './images/Touch-heart.gif',   
     name: 'Touch heart',
-  },
-  {
-    URL: './images/Train.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'Open 8',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'torso',
+    handshape: 'Open 8',
+    
+      },
+      {
+     URL: './images/Train.gif',   
     name: 'Train',
-  },
-  {
-    URL: './images/Trim_hedge.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'H',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'H',
+    
+      },
+      {
+     URL: './images/Trim_hedge.gif',   
     name: 'Trim hedge',
-  },
-  {
-    URL: './images/Triple.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'V',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'V',
+    
+      },
+      {
+     URL: './images/Triple.gif',   
     name: 'Triple',
-  },
-  {
-    URL: './images/Trouble.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: '3',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'palm',
+    handshape: '3',
+    
+      },
+      {
+     URL: './images/Trouble.gif',   
     name: 'Trouble',
-  },
-  {
-    URL: './images/Trumpet.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'Open B',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'headside',
+    handshape: 'Open B',
+    
+      },
+      {
+     URL: './images/Trumpet.gif',   
     name: 'Trumpet',
-  },
-  {
-    URL: './images/Try.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'C',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'inspace',
+    handshape: 'C',
+    
+      },
+      {
+     URL: './images/Try.gif',   
     name: 'Try',
-  },
-  {
-    URL: './images/Twice.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Moodu',
-    location: 'Dos',
-    movement: 'Irandu',
+    handshape: 'T',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'T',
+    
+      },
+      {
+     URL: './images/Twice.gif',   
     name: 'Twice',
-  },
-  {
-    URL: './images/Ugly.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Naalugu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Ugly',
-  },
-  {
-    URL: './images/Uniform.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Naalugu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Uniform',
-  },
-  {
-    URL: './images/Very.gif',
-    hands: 'Dho',
-    handshape: 'E',
-    'Palm Orientation': 'Naalugu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Very',
-  },
-  {
-    URL: './images/Vote.gif',
-    hands: 'Dho',
+    handshape: 'K',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'palm',
+    handshape: 'K',
+    
+      },
+      {
+     URL: './images/Ugly.gif',   
+    name:'Ugly',
+    handshape: '1',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'face',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Uniform.gif',   
+    name:'Uniform',
+    handshape: 'H',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'torso',
+    handshape: 'H',
+    
+      },
+      {
+     URL: './images/Very.gif',   
+    name:'Very',
+    handshape: 'V',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'hand',
+    handshape: 'V',
+    
+      },
+      {
+     URL: './images/Vote.gif',   
+    name:'Vote',
     handshape: 'F',
-    'Palm Orientation': 'Naalugu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Vote',
-  },
-  {
-    URL: './images/Wag.gif',
-    hands: 'Dho',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'hand',
     handshape: 'F',
-    'Palm Orientation': 'Naalugu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Wag',
-  },
-  {
-    URL: './images/Waist.gif',
-    hands: 'Dho',
+    
+      },
+      {
+     URL: './images/Wag.gif',   
+    name:'Wag',
+    handshape: '1',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Waist.gif',   
+    name:'Waist',
+    handshape: 'Bent B',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'torso',
+    handshape: 'Bent B',
+    
+      },
+      {
+     URL: './images/Walk.gif',   
+    name:'Walk',
+    handshape: '3',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'inspace',
+    handshape: '3',
+    
+      },
+      {
+     URL: './images/Want.gif',   
+    name:'Want',
+    handshape: '5',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: '5',
+    
+      },
+      {
+     URL: './images/Watch.gif',   
+    name:'Watch',
     handshape: 'F',
-    'Palm Orientation': 'Naalugu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Waist',
-  },
-  {
-    URL: './images/Walk.gif',
-    hands: 'Dho',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'hand',
     handshape: 'F',
-    'Palm Orientation': 'Naalugu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Walk',
-  },
-  {
-    URL: './images/Want.gif',
-    hands: 'Dho',
-    handshape: 'F',
-    'Palm Orientation': 'Naalugu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Want',
-  },
-  {
-    URL: './images/Want.gif',
-    hands: 'Dho',
-    handshape: 'F',
-    'Palm Orientation': 'Naalugu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Want',
-  },
-  {
-    URL: './images/Watch.gif',
-    hands: 'Dho',
-    handshape: 'F',
-    'Palm Orientation': 'Naalugu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Watch',
-  },
-  {
-    URL: './images/Water.gif',
-    hands: 'Dho',
-    handshape: 'F',
-    'Palm Orientation': 'Naalugu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Water',
-  },
-  {
-    URL: './images/Whale.gif',
-    hands: 'Dho',
-    handshape: 'F',
-    'Palm Orientation': 'Naalugu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Whale',
-  },
-  {
-    URL: './images/What.gif',
-    hands: 'Dho',
-    handshape: 'F',
-    'Palm Orientation': 'Naalugu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'What',
-  },
-  {
-    URL: './images/Wheel.gif',
-    hands: 'Dho',
-    handshape: 'F',
-    'Palm Orientation': 'Naalugu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Wheel',
-  },
-  {
-    URL: './images/Wheelchair.gif',
-    hands: 'Dho',
-    handshape: 'F',
-    'Palm Orientation': 'Naalugu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Wheelchair',
-  },
-  {
-    URL: './images/Who.gif',
-    hands: 'Dho',
-    handshape: 'F',
-    'Palm Orientation': 'Naalugu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Who',
-  },
-
-  {
-    URL: './images/Why.gif',
-    hands: 'Dho',
-    handshape: 'F',
-    'Palm Orientation': 'Naalugu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Why',
-  },
-  {
-    URL: './images/Wide.gif',
-    hands: 'Dho',
-    handshape: 'F',
-    'Palm Orientation': 'Naalugu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Wide',
-  },
-  {
-    URL: './images/Wolf.gif',
-    hands: 'Dho',
-    handshape: 'F',
-    'Palm Orientation': 'Naalugu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Wolf',
-  },
-  {
-    URL: './images/Work.gif',
-    hands: 'Dho',
-    handshape: 'F',
-    'Palm Orientation': 'Naalugu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Work',
-  },
-  {
-    URL: './images/Write.gif',
-    hands: 'Dho',
-    handshape: 'F',
-    'Palm Orientation': 'Naalugu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Write',
-  },
-  {
-    URL: './images/Wrong.gif',
-    hands: 'Dho',
-    handshape: 'F',
-    'Palm Orientation': 'Naalugu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Wrong',
-  },
-  {
-    URL: './images/Yawn.gif',
-    hands: 'Dho',
-    handshape: 'F',
-    'Palm Orientation': 'Naalugu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Yawn',
-  },
-  {
-    URL: './images/Yellow.gif',
-    hands: 'Dho',
-    handshape: 'F',
-    'Palm Orientation': 'Naalugu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Yellow',
-  },
-  {
-    URL: './images/Yesterday.gif',
-    hands: 'Dho',
-    handshape: 'F',
-    'Palm Orientation': 'Naalugu',
-    location: 'Dos',
-    movement: 'Irandu',
-    name: 'Yesterday',
-  },
+    
+      },
+      {
+     URL: './images/Water.gif',   
+    name:'Water',
+    handshape: 'W',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: 'W',
+    
+      },
+      {
+     URL: './images/Whale.gif',   
+    name:'Whale',
+    handshape: 'Y',
+    
+    hands: 'twoalter',
+    movement: 'UniD',
+    location: 'arm',
+    handshape: 'Y',
+    
+      },
+      {
+     URL: './images/What.gif',   
+    name:'What',
+    handshape: 'W',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'inspace',
+    handshape: 'W',
+    
+      },
+      {
+     URL: './images/Wheel.gif',   
+    name:'Wheel',
+    handshape: '1',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'inspace',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Wheelchair.gif',   
+    name:'Wheelchair',
+    handshape: '1',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'inspace',
+    handshape: '1',
+    
+      },
+      {
+     URL: './images/Who.gif',   
+    name:'Who',
+    handshape: 'L',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: 'L',
+    
+      },
+      {
+     URL: './images/Why.gif',   
+    name:'Why',
+    handshape: 'Open B',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'headside',
+    handshape: 'Open B',
+    
+      },
+      {
+     URL: './images/Wide.gif',   
+    name:'Wide',
+    handshape: 'Open B',
+    
+    hands: 'twosymm',
+    movement: 'UniD',
+    location: 'hand',
+    handshape: 'Open B',
+    
+      },
+      {
+     URL: './images/Wolf.gif',   
+    name:'Wolf',
+    handshape: '5',
+    
+    hands: 'onemove',
+    movement: 'UniD',
+    location: 'face',
+    handshape: '5',
+    
+      },
+      {
+     URL: './images/Work.gif',   
+    name:'Work',
+    handshape: 'S',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'S',
+    
+      },
+      {
+     URL: './images/Write.gif',   
+    name:'Write',
+    handshape: 'Baby O',
+    
+    hands: 'twoalter',
+    movement: 'Repeat',
+    location: 'palm',
+    handshape: 'Baby O',
+    
+      },
+      {
+     URL: './images/Wrong.gif',   
+    name:'Wrong',
+    handshape: 'Y',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'face',
+    handshape: 'Y',
+    
+      },
+      {
+     URL: './images/Yawn.gif',   
+    name:'Yawn',
+    handshape: 'Y',
+    
+    hands: 'twosymm',
+    movement: 'Repeat',
+    location: 'hand',
+    handshape: 'Y',
+    
+      },
+      {
+     URL: './images/Yellow.gif',   
+    name:'Yellow',
+    handshape: 'Y',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'inspace',
+    handshape: 'Y',
+    
+      },
+      {
+     URL: './images/Yesterday.gif',   
+    name:'Yesterday',
+    handshape: 'Open A',
+    
+    hands: 'onemove',
+    movement: 'Repeat',
+    location: 'headside',
+    handshape: 'Open A',
+    
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 ]
 
 const STIMULI_SIGNS = [
@@ -2632,7 +3232,6 @@ const STIMULI_SIGNS = [
   'PIG',
   'PUFF-SMOKE',
   'RAINBOW',
-  'ROAD',
   'SALT',
   'SAVE-MONEY',
   'SCOTLAND',
@@ -2668,6 +3267,10 @@ if (sign_names) {
 let results = []
 let filters = {}
 
+function formatSignProperty(property) {
+  return Array.isArray(property) ? property.join(', ') : property
+}
+
 function addSign(sign, index) {
   const id = sign.name
   $('.results-grid').append(
@@ -2678,15 +3281,13 @@ function addSign(sign, index) {
     <p><strong>${sign.name}</strong></p>
     </div>
     <div class="sign-properties">
-    <p><strong>Hands:</strong> ${sign.hands}</p>
+    <p><strong>Hands:</strong> ${formatSignProperty(sign.hands)}</p>
     <span class="seperator">|</span>
-    <p><strong>Handshape:</strong> ${sign.handshape}</p>
+    <p><strong>Handshape:</strong> ${formatSignProperty(sign.handshape)}</p>
     <span class="seperator">|</span>
-    <p><strong>Palm Orientation:</strong> ${sign['Palm Orientation']}</p>
+    <p><strong>Location:</strong> ${formatSignProperty(sign.location)}</p>
     <span class="seperator">|</span>
-    <p><strong>Location:</strong> ${sign.location}</p>
-    <span class="seperator">|</span>
-    <p><strong>Movement:</strong> ${sign.movement}</p>
+    <p><strong>Movement:</strong> ${formatSignProperty(sign.movement)}</p>
     </div>
     </div>`
   )
@@ -2719,18 +3320,52 @@ function signExist(signName) {
   return results.length > 0
 }
 
+const filterContainers = [
+  'movement-filters',
+  'location-filters',
+  'hands-filters',
+]
+
 /**
  * check if the filter exist and sign value match the filter's value
  * @param {String} type (filter type)
  * @param {Object} sign
  */
 function isFilterMatch(type, sign) {
-  return filters[type] && filters[type].includes(sign[type])
+  console.log(filters[type], sign[type])
+  if (filters[type]) {
+    // check if the sign[type] is a string or an array
+    const isSignValuesArray = Array.isArray(sign[type])
+    // if it is an array, check for each value if it exists in filters[type]
+    // return true if any one value matches that of filters[type]
+    if (isSignValuesArray) {
+      const matchedSignValues = sign[type].filter((val) =>
+        filters[type].includes(val)
+      )
+      console.log(matchedSignValues)
+      return matchedSignValues.length > 0
+    }
+    // if sign[type] is a string, check if its value exists in filters[type]
+    return filters[type].includes(sign[type])
+  } else {
+    return false
+  }
+  // return filters[type] && filters[type].includes(sign[type])
 }
 
-function toggleFilters() {
-  const filtersEl = document.getElementById('filters')
+function hideFilterContainer(containerId) {
+  const filtersEl = document.getElementById(containerId)
+  filtersEl.style.display = 'none'
+}
+
+function toggleFilters(containerId) {
+  const filtersEl = document.getElementById(containerId)
   const clearEl = document.getElementById('clear')
+
+  // hide other filter containers and toggle only the filter container with the containerId
+  filterContainers
+    .filter((id) => id !== containerId)
+    .forEach((id) => hideFilterContainer(id))
 
   // toggle the display property of the filter-container
   filtersEl.style.display = `${
@@ -2749,7 +3384,10 @@ function clearFilters() {
   filters = []
   const filterElements = document.querySelectorAll('.filter-column p')
   filterElements.forEach((element) => (element.style.fontWeight = 'normal'))
-  toggleFilters()
+  filterContainers.forEach((containerId) => hideFilterContainer(containerId))
+  // hide clear all button
+  const clearEl = document.getElementById('clear')
+  clearEl.style.display = 'none'
   // signs container
   // remove all child nodes of signs container
   $('.results-grid')[0].innerHTML = ''
@@ -2817,6 +3455,7 @@ function filterByType(type, value, index = 0) {
           filters['Palm Orientation'] === undefined
         ) {
           if (isFilterMatch('hands', sign)) {
+            console.log(sign.name)
             updateResults(sign)
           } else if (isFilterMatch('handshape', sign)) {
             updateResults(sign)
@@ -2856,22 +3495,10 @@ function filterByType(type, value, index = 0) {
     errorMessageEl.style.display = 'none'
 
     const stimuliSign = localStorage.getItem('stimuliSign')
-    const stimuliPostion = Number(localStorage.getItem('stimuliPosition'))
-
-    /* Best position experiment */
-    //   const pIndex = stimuliPostion- 5
-    //   const positionIndex =   pIndex < 0 ? 0 : pIndex
-
-    /* Same position experiment  */
-    const positionIndex = stimuliPostion || 0
-
-    /* Worst position experiment */
-    //const pIndex = stimuliPostion + 5
-    // const positionIndex = pIndex >= results.length ? results.length - 1 : pIndex
-
-    let mainIndex = 0
+    let mainIndex = -1
     let position_sign = {}
     const participantCode = getParameter('p')
+    const positionIndex = POSITION_RANGE[participantCode - 1]
     let ui_signs = []
 
     results.forEach((sign, index) => {
@@ -2880,11 +3507,11 @@ function filterByType(type, value, index = 0) {
         STIMULI_SIGNS.includes(stimuliSign.toUpperCase())
       ) {
         mainIndex = index
-        if (position_sign[positionIndex]) {
-          position_sign[index] = position_sign[positionIndex]
-          position_sign[positionIndex] = sign
+        if (position_sign[positionIndex - 1]) {
+          position_sign[index] = position_sign[positionIndex - 1]
+          position_sign[positionIndex - 1] = sign
         } else {
-          position_sign[positionIndex] = sign
+          position_sign[positionIndex - 1] = sign
         }
       } else {
         if (position_sign[index]) {
