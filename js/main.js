@@ -76,10 +76,11 @@ function loadGrid() {
     let p = getParameter('p')
 
     if (i >= 0) {
-      var signs_order = flow.Flow
+      var signs_order = flow.Flow.slice(0,16)
       var ks = LatinSquare(flow.Ks, p)
       var index = ks[i % ks.length]
       var curr = signs_order[i]
+      console.log(curr);
       var total_signs_flow = signs_order.length
     } else {
       var curr = flow.Sample
@@ -201,8 +202,6 @@ function shuffle(o) {
 }
 
 function generateResults(sign, similar, handshape, location, random, index) {
-  localStorage.setItem('stimuliSign', sign)
-  localStorage.setItem('stimuliPosition', index)
 
   deleteElement(sign, handshape)
   deleteElement(sign, location)
@@ -257,8 +256,10 @@ function getVideo() {
   loadJSON('flow.json', function (flow) {
     let i = getParameter('i')
     if (i >= 0) {
-      let sign_order = flow.Flow
+      let sign_order = flow.Flow.slice(0,16)
       var curr = sign_order[i]
+      localStorage.setItem('stimuliSign', curr['Sign'])
+      console.log(curr)
     } else {
       var curr = flow.Sample
     }
@@ -432,7 +433,8 @@ function __main__() {
   let path = getEndOfPath(window.location.pathname)
   let i = getParameter('i')
   loadJSON('flow.json', function (flow) {
-    let sign_order = flow.Flow
+    let sign_order = flow.Flow.slice(0,16)
+    console.log(sign_order.length, i);
     if (sign_order.length <= i) {
       $('.content').html('<h1>Thank you</h1>')
     }
