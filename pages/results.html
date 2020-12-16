@@ -31,10 +31,221 @@
           </div>
         </div>
 
-        <button class="toggle-filter-btn" onclick="toggleFilters()">
-          FILTER
+        <button
+          class="toggle-filter-btn"
+          onclick="toggleFilters('movement-filters')"
+        >
+          Movement
         </button>
-        <div class="filter-container" id="filters">
+        <button
+          class="toggle-filter-btn"
+          onclick="toggleFilters('hands-filters')"
+        >
+          Number of Hands
+        </button>
+        <button
+          class="toggle-filter-btn"
+          onclick="toggleFilters('location-filters')"
+        >
+          Location
+        </button>
+        
+        <button class="toggle-filter-btn" onclick="toggleFilters('handshape-filters')">
+          Handshape
+        </button>
+
+        <div class="filter-container" id="movement-filters">
+          <div class="filter-column">
+            <!-- <h3>Movement</h3>
+            <hr /> -->
+            <p onclick="filterByType('movement', 'UniD', 1)" id="movement-1">
+              Unidirectional
+            </p>
+            <p onclick="filterByType('movement', 'Repeat', 2)" id="movement-2">
+              Repeated
+            </p>
+          </div>
+        </div>
+
+        <div class="filter-container" id="location-filters">
+          <div class="filter-column">
+            <p onclick="filterByType('location', 'inspace', 1)" id="location-1">
+              inspace
+            </p>
+            <p onclick="filterByType('location', 'face', 2)" id="location-2">
+              face
+            </p>
+            <p onclick="filterByType('location', 'headside', 3)" id="location-3">
+              headside
+            </p>
+            <p onclick="filterByType('location', 'palm', 4)" id="location-4">
+              palm
+            </p>
+            <p onclick="filterByType('location', 'hand', 5)" id="location-5">
+              hand
+            </p>
+            <p onclick="filterByType('location', 'arm', 6)" id="location-6">
+              arm
+            </p>
+            <p onclick="filterByType('location', 'torso', 7)" id="location-7">
+              torso
+            </p>
+            <p onclick="filterByType('location', 'other', 8)" id="location-8">
+              other
+            </p>
+          </div>
+        </div>
+
+        <div class="filter-container" id="hands-filters">
+          <div class="filter-column">
+            <p onclick="filterByType('hands', 'onemove', 1)" id="hands-1">
+              One-handed, moving
+            </p>
+            <p onclick="filterByType('hands', 'twosymm', 2)" id="hands-2">
+              Two-handed, symmetrical
+            </p>
+            <p onclick="filterByType('hands', 'twoalter', 3)" id="hands-3">
+              Two-handed, alternatively
+            </p>
+          </div>
+        </div>
+
+        <div class="filter-container" id="handshape-filters">
+          <div class="row">
+            <div class="image-column">
+              <p onclick="filterByType('handshape', 'A', 1)" id="handshape-1">
+                <img src='/filters/A.png' height="60%" /> 
+              </p>
+              <p onclick="filterByType('handshape', 'Open A', 2)" id="handshape-2">
+                <img src='/filters/Open A.png' height="60%"/> 
+              </p>
+              <p onclick="filterByType('handshape', 'B', 3)" id="handshape-3">
+                <img src='/filters/B.png' height="60%"/> 
+              </p>
+              <p onclick="filterByType('handshape', 'Open B', 4)" id="handshape-4">
+                <img src='/filters/Open B.png' height="60%"/>
+              </p>
+              <p onclick="filterByType('handshape', 'Bent B', 5)" id="handshape-5">
+                <img src='/filters/Bent B.png' height="60%"/>
+              </p>
+              <p onclick="filterByType('handshape', 'C', 6)" id="handshape-6">
+                <img src='/filters/C.png' height="60%"/>
+              </p>
+              <p onclick="filterByType('handshape', 'D', 7)" id="handshape-7">
+                <img src='/filters/D.png' height="60%"/>
+              </p>
+              <p onclick="filterByType('handshape', 'E', 8)" id="handshape-8">
+                <img src='/filters/E.png' height="60%"/>
+              </p>
+              <p onclick="filterByType('handshape', 'F', 9)" id="handshape-9">
+                <img src='/filters/F.png' height="60%" /> 
+              </p>
+              <p onclick="filterByType('handshape', 'Open F', 10)" id="handshape-10">
+                <img src='/filters/Open F.png' height="60%"/> 
+              </p>
+              <p onclick="filterByType('handshape', 'G',11 )" id="handshape-11">
+                <img src='/filters/G.png' height="60%"/> 
+              </p>
+              <p onclick="filterByType('handshape', 'H',12 )" id="handshape-12">
+                <img src='/filters/H.png' height="60%"/> 
+              </p>
+              <p onclick="filterByType('handshape', 'I',13 )" id="handshape-13">
+                <img src='/filters/I.png' height="60%"/> 
+              </p>
+              <p onclick="filterByType('handshape', 'K',14 )" id="handshape-14">
+                <img src='/filters/K.png' height="60%"/> 
+              </p>
+              <p onclick="filterByType('handshape', 'L',15 )" id="handshape-15">
+                <img src='/filters/L.png' height="60%"/> 
+              </p>
+              <p onclick="filterByType('handshape', 'Bent L',16 )" id="handshape-16">
+                <img src='/filters/Bent L.png' height="60%"/> 
+              </p>
+              <p onclick="filterByType('handshape', 'M',17 )" id="handshape-17">
+                <img src='/filters/M.png' height="60%"/> 
+              </p>
+              <p onclick="filterByType('handshape', 'N',18 )" id="handshape-18">
+                <img src='/filters/N.png' height="60%"/> 
+              </p>
+              <p onclick="filterByType('handshape', 'Open N',19 )" id="handshape-19">
+                <img src='/filters/Open N.png' height="60%"/> 
+              </p>
+              <p onclick="filterByType('handshape', 'O',20 )" id="handshape-20">
+                <img src='/filters/O.png' height="60%"/> 
+              </p>
+              <p onclick="filterByType('handshape', 'Baby O',21 )" id="handshape-21">
+                <img src='/filters/Baby O.png' height="60%"/> 
+              </p>
+              <p onclick="filterByType('handshape', 'Flattened O',22 )" id="handshape-22">
+                <img src='/filters/Flattened O.png' height="60%"/> 
+              </p>
+              <p onclick="filterByType('handshape', 'R',23 )" id="handshape-23">
+                <img src='/filters/R.png' height="60%"/> 
+              </p>
+              <p onclick="filterByType('handshape', 'S',24 )" id="handshape-24">
+                <img src='/filters/S.png' height="60%"/> 
+              </p>
+              <p onclick="filterByType('handshape', 'T',25 )" id="handshape-25">
+                <img src='/filters/T.png' height="60%"/> 
+              </p>
+              <p onclick="filterByType('handshape', 'V',26 )" id="handshape-26">
+                <img src='/filters/T.png' height="60%"/> 
+              </p>
+              <p onclick="filterByType('handshape', 'Bent V',27 )" id="handshape-27">
+                <img src='/filters/Bent V.png' height="60%"/> 
+              </p>
+              <p onclick="filterByType('handshape', 'W',28 )" id="handshape-28">
+                <img src='/filters/W.png' height="60%"/> 
+              </p>
+              <p onclick="filterByType('handshape', 'X',29 )" id="handshape-29">
+                <img src='/filters/X.png' height="60%"/> 
+              </p>
+              <p onclick="filterByType('handshape', 'Y',30 )" id="handshape-30">
+                <img src='/filters/Y.png' height="60%"/>
+              </p>
+              <p onclick="filterByType('handshape', 'L1',31 )" id="handshape-31">
+                <img src='/filters/L1.png' height="60%"/>
+              </p>
+              <p onclick="filterByType('handshape', '1L',32 )" id="handshape-32">
+                <img src='/filters/1L.png' height="60%"/>
+              </p>
+              <p onclick="filterByType('handshape', '1',33 )" id="handshape-33">
+                <img src='/filters/1.png' height="60%"/>
+              </p>
+              <p onclick="filterByType('handshape', '3',34 )" id="handshape-34">
+                <img src='/filters/3.png' height="60%"/>
+              </p>
+              <p onclick="filterByType('handshape', 'Bent 3',35 )" id="handshape-35">
+                <img src='/filters/Bent 3.png' height="60%"/>
+              </p>
+              <p onclick="filterByType('handshape', '4',36 )" id="handshape-36">
+                <img src='/filters/4.png' height="60%"/>
+              </p>
+              <p onclick="filterByType('handshape', '5',37 )" id="handshape-37">
+                <img src='/filters/5.png' height="60%"/>
+              </p>
+              <p onclick="filterByType('handshape', 'Bent 5',38 )" id="handshape-38">
+                <img src='/filters/Bent 5.png' height="60%"/>
+              </p>
+              <p onclick="filterByType('handshape', '8',39 )" id="handshape-39">
+                <img src='/filters/8.png' height="60%"/>
+              </p>
+              <p onclick="filterByType('handshape', 'Open 8',40 )" id="handshape-40">
+                <img src='/filters/Open 8.png' height="60%"/>
+              </p>
+
+            </div>
+
+          </div>
+
+          </div>
+
+
+
+        <p id="clear" onclick="clearFilters()">Clear all</p>
+        <hr />
+
+        <!-- <div class="filter-container" id="filters">
           <div class="filter-column">
             <h3>Orientation</h3>
             <hr />
@@ -110,9 +321,7 @@
               two-handed, alternatively
             </p>
           </div>
-        </div>
-        <p id="clear" onclick="clearFilters()">Clear all</p>
-        <hr />
+        </div> -->
 
         <div class="results-grid-container">
           <div id="signs" class="results-grid"></div>
