@@ -624,6 +624,16 @@ input:focus ~ .highlight {
   cursor: pointer;
 }
 
+.filter-container .image-column {
+  text-align: left;
+  display: grid;
+  grid-template-columns: repeat(10,1fr);
+  grid-template-rows: repeat(4,1fr);
+  grid-gap: 0.25rem;
+  margin: 0.25rem;
+  cursor: pointer;
+}
+
 #clear {
   display: none;
   text-align: center;
