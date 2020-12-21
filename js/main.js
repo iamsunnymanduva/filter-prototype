@@ -441,15 +441,23 @@ function backToTop() {
 //     return fetch('http://localhost:3004/dcg', options)
 //       .then((response) => response.json)
 //   }
+function replaceLocation(destination) {
+  const {origin, pathname} = window.location
+  // pathname will be like /filter-prototype/pages/video.html
+  const appName = pathname.split('/')[1]
+  const i = getParameter('i')
+  const p = getParameter('p')
+  // redirect the user to video.html with incremented `i`
+  window.location.href = `${origin}/${
+    appName === 'pages' ? appName : `${appName}/pages`
+  }/${destination}.html?i=${destination === 'video' ? i + 1 : i}&p=${p}`
+}
+
 function videoNext() {
   const date = new Date()
   const startTime = date.getTime()
   localStorage.setItem('startTime', startTime)
-  const {origin} = window.location
-  const i = getParameter('i')
-  const p = getParameter('p')
-  // redirect the user to results.html
-  window.location.href = `${origin}/pages/record.html?i=${i}&p=${p}`
+  replaceLocation('record')
 }
 
 async function resultsNext() {
@@ -491,11 +499,7 @@ async function resultsNext() {
   } catch (error) {
     console.error(error)
   } finally {
-    const {origin} = window.location
-    const i = getParameter('i')
-    const p = getParameter('p')
-    // redirect the user to video.html with incremented `i`
-    window.location.href = `${origin}/pages/video.html?i=${i + 1}&p=${p}`
+    replaceLocation('video')
   }
 }
 
