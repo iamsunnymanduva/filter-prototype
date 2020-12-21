@@ -499,7 +499,7 @@ async function resultsNext() {
   } catch (error) {
     console.error(error)
   } finally {
-    replaceLocation('video')
+    //replaceLocation('video')
   }
 }
 
