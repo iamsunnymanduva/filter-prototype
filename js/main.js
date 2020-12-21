@@ -76,19 +76,22 @@ function loadGrid() {
     let p = getParameter('p')
 
     if (i >= 0) {
-      var signs_order = flow.Flow.slice(0,16)
+      var signs_order = flow.Flow.slice(0, 16)
       var ks = LatinSquare(flow.Ks, p)
       var index = ks[i % ks.length]
-      var curr = signs_order[i]
-      console.log(curr);
+      //var curr = signs_order[i]
+      var curr = JSON.parse(localStorage.getItem('stimuliSignObject'))
+      console.log(curr)
       var total_signs_flow = signs_order.length
     } else {
       var curr = flow.Sample
+      //var curr = localStorage.getItem('stimuliSignObject')
       var index = curr['Index']
       var total_signs_flow = 1
     }
     let all_signs = flow.Signs
     let display_modes = flow.Display_modes
+    console.log(curr)
 
     if (curr) {
       var location = curr['Location']
@@ -106,6 +109,7 @@ function loadGrid() {
         random.slice(),
         index
       )
+      console.log(grid.includes(sign))
       setDisplay(total_signs_flow, LatinSquare(display_modes, p), p, i)
     } else {
       var signs = shuffle(all_signs['Head'])
@@ -202,7 +206,6 @@ function shuffle(o) {
 }
 
 function generateResults(sign, similar, handshape, location, random, index) {
-
   deleteElement(sign, handshape)
   deleteElement(sign, location)
   for (let i = 0; i < similar.length; i++) {
@@ -255,13 +258,22 @@ function getParameter(p) {
 function getVideo() {
   loadJSON('flow.json', function (flow) {
     let i = getParameter('i')
+    const p = getParameter('p')
     if (i >= 0) {
-      let sign_order = flow.Flow.slice(0,16)
-      var curr = sign_order[i]
-      localStorage.setItem('stimuliSign', curr['Sign'])
-      console.log(curr)
+      let sign_order = flow.Flow.slice(0, 16)
+      var ks = LatinSquare(flow.Ks, p)
+      var index = ks[i % ks.length]
+      var curr = sign_order[index]
+      if (i < 16) {
+        localStorage.setItem('stimuliSign', curr['Sign'])
+        localStorage.setItem('stimuliSignObject', JSON.stringify(curr))
+        console.log(curr)
+      }
     } else {
       var curr = flow.Sample
+      localStorage.setItem('stimuliSign', curr['Sign'])
+      localStorage.setItem('stimuliSignObject', JSON.stringify(curr))
+      console.log(curr)
     }
     if (curr) {
       let videoFile = curr.Sign + '.mp4'
@@ -428,13 +440,69 @@ function backToTop() {
 //     return fetch('http://localhost:3004/dcg', options)
 //       .then((response) => response.json)
 //   }
+function videoNext() {
+  const date = new Date()
+  const startTime = date.getTime()
+  localStorage.setItem('startTime', startTime)
+  const {origin} = window.location
+  const i = getParameter('i')
+  const p = getParameter('p')
+  // redirect the user to results.html
+  window.location.href = `${origin}/pages/record.html?i=${i}&p=${p}`
+}
+
+async function resultsNext() {
+  try {
+    const sign = localStorage.getItem('stimuliSign')
+    const date = new Date()
+    const endTime = date.getTime()
+    localStorage.setItem('endTime', endTime)
+    const startTime = Number(localStorage.getItem('startTime'))
+    const startDate = new Date(startTime)
+    // time elapsed for a sign
+    const timeElapsed = endTime - startTime
+    // // get cumulative totalTime by adding prevTotalTime + current sign timeElapsed
+    // const prevTotalTime = localStorage.getItem('totalTime') || 0
+    // localStorage.setItem(
+    //   'totalTime',
+    //   Number(prevTotalTime) + Number(timeElapsed)
+    // )
+    // // store individual sign timeElapsed values in an array
+    // let signTimes = JSON.parse(localStorage.getItem('signTimes')) || []
+    // signTimes.push(timeElapsed)
+    // localStorage.setItem('signTimes', JSON.stringify(signTimes))
+    const signStats = {
+      sign,
+      startTime: startDate.toISOString(),
+      endTime: date.toISOString(),
+      timeElapsed,
+      participantCode: getParameter('p'),
+      signCode: getParameter('i'),
+    }
+    // send stats data
+    await fetch('https://signs-prototype-api.vercel.app/create', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(signStats),
+    })
+  } catch (error) {
+    console.error(error)
+  } finally {
+    const {origin} = window.location
+    const i = getParameter('i')
+    const p = getParameter('p')
+    // redirect the user to video.html with incremented `i`
+    window.location.href = `${origin}/pages/video.html?i=${i + 1}&p=${p}`
+  }
+}
 
 function __main__() {
   let path = getEndOfPath(window.location.pathname)
   let i = getParameter('i')
   loadJSON('flow.json', function (flow) {
-    let sign_order = flow.Flow.slice(0,16)
-    console.log(sign_order.length, i);
+    let sign_order = flow.Flow.slice(0, 16)
     if (sign_order.length <= i) {
       $('.content').html('<h1>Thank you</h1>')
     }
@@ -449,7 +517,7 @@ function __main__() {
     getCamera()
     bindRecord()
   } else if (path == 'video.html') {
-    setIndexQuery(i, '.next')
+    // setIndexQuery(i, '.next')
     getVideo()
   } else if (path == 'index.html' || path == '') {
     bindParticipantCode(-1)
