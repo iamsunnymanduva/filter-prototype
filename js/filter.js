@@ -3243,7 +3243,7 @@ const STIMULI_SIGNS = [
   'WHEEL',
   'YAWN',
 ]
-const POSITION_RANGE = [2, 7, 13, 18, 23]
+// const POSITION_RANGE = [2, 7, 13, 18, 23]
 
 let filterReadySigns = {}
 
@@ -3324,6 +3324,7 @@ const filterContainers = [
   'movement-filters',
   'location-filters',
   'hands-filters',
+  'handshape-filters'
 ]
 
 /**
@@ -3362,6 +3363,8 @@ function toggleFilters(containerId) {
   const filtersEl = document.getElementById(containerId)
   const clearEl = document.getElementById('clear')
 
+  console.log(filtersEl.style.display, filtersEl, containerId)
+  const imgContainer = document.querySelector('.image-column')
   // hide other filter containers and toggle only the filter container with the containerId
   filterContainers
     .filter((id) => id !== containerId)
@@ -3373,6 +3376,13 @@ function toggleFilters(containerId) {
       ? 'flex'
       : 'none'
   }`
+
+  imgContainer.style.display = `${
+    filtersEl.style.display === 'flex' || filtersEl.style.display === ''
+      ? 'grid'
+      : 'none'
+  }`
+
   // toggle display of clear all button based on the display of filter-container
   clearEl.style.display = `${
     filtersEl.style.display === 'flex' ? 'block' : 'none'
@@ -3395,19 +3405,28 @@ function clearFilters() {
   localSigns.forEach((sign) => addInitialSign(sign))
   // update the number of signs in the UI
   $('.number-of-signs').text(localSigns.length)
+  let imgContainer = document.querySelector('.image-column');
+  imgContainer.style.display = 'none';
+  let container = document.querySelector('.filter-container');
+  container.style.display = 'none';
+  let images = document.querySelectorAll(`.image-column img`);
+  if (images)
+  {
+    images.forEach(img => img.style.border = 'none')
+}
 }
 
-function getParameter(p) {
-  let parsedUrl = new URL(window.location.href)
-  const code = Number(parsedUrl.searchParams.get(p))
-  if (code && code <= 5) {
-    return code
-  } else if (code > 5) {
-    return code % 5
-  } else {
-    return 1
-  }
-}
+// function getParameter(p) {
+//   let parsedUrl = new URL(window.location.href)
+//   const code = Number(parsedUrl.searchParams.get(p))
+//   if (code && code <= 5) {
+//     return code
+//   } else if (code > 5) {
+//     return code % 5
+//   } else {
+//     return 1
+//   }
+// }
 
 /**
   @param {String} type
@@ -3443,7 +3462,11 @@ function filterByType(type, value, index = 0) {
   // filter signs based on the type (property) and value
   if (type !== 'default') {
     document.getElementById(`${type}-${index}`).style.fontWeight = 'bold'
-
+    let img = document.querySelector(`#${type}-${index} img`);
+    if (img)
+    {img.style.border = '1px solid #000';
+  }
+      
     results = []
     console.log(filters)
     user_signs.forEach((sign) => {
@@ -3495,40 +3518,42 @@ function filterByType(type, value, index = 0) {
     errorMessageEl.style.display = 'none'
 
     const stimuliSign = localStorage.getItem('stimuliSign')
-    let mainIndex = -1
-    let position_sign = {}
-    const participantCode = getParameter('p')
-    const positionIndex = POSITION_RANGE[participantCode - 1]
-    let ui_signs = []
+    console.log(stimuliSign)
+    // let mainIndex = -1
+    // let position_sign = {}
+    // const participantCode = getParameter('p')
+    //const positionIndex = POSITION_RANGE[participantCode - 1]
+    //let ui_signs = []
 
-    results.forEach((sign, index) => {
-      if (
-        sign.name === stimuliSign &&
-        STIMULI_SIGNS.includes(stimuliSign.toUpperCase())
-      ) {
-        mainIndex = index
-        if (position_sign[positionIndex - 1]) {
-          position_sign[index] = position_sign[positionIndex - 1]
-          position_sign[positionIndex - 1] = sign
-        } else {
-          position_sign[positionIndex - 1] = sign
-        }
-      } else {
-        if (position_sign[index]) {
-          position_sign[mainIndex] = sign
-        } else {
-          position_sign[index] = sign
-        }
-      }
-    })
+    // results.forEach((sign, index) => {
+    //   if (
+    //     sign.name === stimuliSign &&
+    //     STIMULI_SIGNS.includes(stimuliSign.toUpperCase())
+    //   ) {
+    //     mainIndex = index
+    //     if (position_sign[positionIndex - 1]) {
+    //       position_sign[index] = position_sign[positionIndex - 1]
+    //       position_sign[positionIndex - 1] = sign
+    //     } else {
+    //       position_sign[positionIndex - 1] = sign
+    //     }
+    //   } else {
+    //     if (position_sign[index]) {
+    //       position_sign[mainIndex] = sign
+    //     } else {
+    //       position_sign[index] = sign
+    //     }
+    //   }
+    // })
 
-    ui_signs = Object.values(position_sign)
+    // ui_signs = Object.values(position_sign)
 
-    console.log(position_sign, ui_signs)
+    // console.log(position_sign, ui_signs)
 
     // loop through the results and create a div with an img element for each sign
     // append the above elements to signs container
-    ui_signs.forEach((sign, index) => {
+    results.forEach((sign, index) => {
+
       // const divElement = document.createElement('div')
       // const imgElement = document.createElement('img')
       // const labelElement = document.createElement('p')
