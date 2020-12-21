@@ -261,9 +261,10 @@ function getVideo() {
     const p = getParameter('p')
     if (i >= 0) {
       let sign_order = flow.Flow.slice(0, 16)
-      var ks = LatinSquare(flow.Ks, p)
-      var index = ks[i % ks.length]
-      var curr = sign_order[index]
+      // var ks = LatinSquare(flow.Ks, p)
+      // var index = ks[i % ks.length]
+      // var curr = sign_order[index]
+      var curr = sign_order[i]
       if (i < 16) {
         localStorage.setItem('stimuliSign', curr['Sign'])
         localStorage.setItem('stimuliSignObject', JSON.stringify(curr))
