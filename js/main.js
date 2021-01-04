@@ -76,7 +76,7 @@ function loadGrid() {
     let p = getParameter('p')
 
     if (i >= 0) {
-      var signs_order = flow.Flow.slice(0, 16)
+      var signs_order = flow.Flow.slice(0, 24)
       var ks = LatinSquare(flow.Ks, p)
       var index = ks[i % ks.length]
       //var curr = signs_order[i]
@@ -260,7 +260,7 @@ function getVideo() {
     let i = getParameter('i')
     const p = getParameter('p')
     if (i >= 0) {
-      let sign_order = flow.Flow.slice(0, 16)
+      let sign_order = flow.Flow.slice(0, 24)
       // var ks = LatinSquare(flow.Ks, p)
       // var index = ks[i % ks.length]
       // var curr = sign_order[index]
@@ -460,54 +460,11 @@ function videoNext() {
   replaceLocation('record')
 }
 
-async function resultsNext() {
-  try {
-    const sign = localStorage.getItem('stimuliSign')
-    const date = new Date()
-    const endTime = date.getTime()
-    localStorage.setItem('endTime', endTime)
-    const startTime = Number(localStorage.getItem('startTime'))
-    const startDate = new Date(startTime)
-    // time elapsed for a sign
-    const timeElapsed = endTime - startTime
-    // // get cumulative totalTime by adding prevTotalTime + current sign timeElapsed
-    // const prevTotalTime = localStorage.getItem('totalTime') || 0
-    // localStorage.setItem(
-    //   'totalTime',
-    //   Number(prevTotalTime) + Number(timeElapsed)
-    // )
-    // // store individual sign timeElapsed values in an array
-    // let signTimes = JSON.parse(localStorage.getItem('signTimes')) || []
-    // signTimes.push(timeElapsed)
-    // localStorage.setItem('signTimes', JSON.stringify(signTimes))
-    const signStats = {
-      sign,
-      startTime: startDate.toISOString(),
-      endTime: date.toISOString(),
-      timeElapsed,
-      participantCode: getParameter('p'),
-      signCode: getParameter('i'),
-    }
-    // send stats data
-    await fetch('https://signs-prototype-api.vercel.app/create', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(signStats),
-    })
-  } catch (error) {
-    console.error(error)
-  } finally {
-    replaceLocation('video')
-  }
-}
-
 function __main__() {
   let path = getEndOfPath(window.location.pathname)
   let i = getParameter('i')
   loadJSON('flow.json', function (flow) {
-    let sign_order = flow.Flow.slice(0, 16)
+    let sign_order = flow.Flow.slice(0, 24)
     if (sign_order.length <= i) {
       $('.content').html('<h1>Thank you</h1>')
     }
