@@ -70,13 +70,16 @@ function getQuery(i, p) {
   return 'i=' + i + '&p=' + p
 }
 
+console.log(setIndexQuery.return);
+console.log(index);
+
 function loadGrid() {
   loadJSON('flow.json', function (flow) {
     let i = getParameter('i')
     let p = getParameter('p')
 
     if (i >= 0) {
-      var signs_order = flow.Flow.slice(0, 24)
+      var signs_order = flow.Flow
       var ks = LatinSquare(flow.Ks, p)
       var index = ks[i % ks.length]
       //var curr = signs_order[i]
@@ -109,7 +112,9 @@ function loadGrid() {
         random.slice(),
         index
       )
-      console.log(grid.includes(sign))
+      //console.log(grid.includes(sign))
+      console.log(typeof grid)
+
       setDisplay(total_signs_flow, LatinSquare(display_modes, p), p, i)
     } else {
       var signs = shuffle(all_signs['Head'])

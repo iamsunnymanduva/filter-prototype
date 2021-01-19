@@ -589,8 +589,10 @@
 		},
 		{
 			"Sign": "Puff-smoke",
-			"Handshape": "bent_5",
-			"Location": "Head",
+			"Handshape": "O",
+			"Location": "face",
+			"hands": "One-handed, moving",
+			"movement": "Unidirectional",
 			"Similar": [
 				"Storm",
 				"Radio"
