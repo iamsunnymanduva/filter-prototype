@@ -2966,18 +2966,16 @@ async function logTime() {
 
 function signClick(name) {
   const stimuliSign = localStorage.getItem('stimuliSign')
-  const signId = name.id
 
-  if (stimuliSign === signId) {
+  if (stimuliSign === name) {
     logTime()
   }
 }
 
 function addSign(sign, index) {
   const elementId = `${sign.name}-${index}`
-  const id = elementId.split('-')[0]
   $('.results-grid').append(
-    `<div class="result-box" id="${index}" onclick="signClick(${id})">
+    `<div class="result-box" id="${index}" onclick="signClick('${sign.name}')">
     <div class="result-image" id="${elementId}">
     </div>
     <div class="result-title">
