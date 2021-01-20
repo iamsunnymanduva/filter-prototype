@@ -23,7 +23,7 @@ const signs = [
     name: 'Abortion',
     handshape: 'Open B',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'palm',
     handshape: 'Open B',
@@ -43,7 +43,7 @@ const signs = [
     name: 'Advise',
     handshape: 'Open B',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'hand',
     handshape: 'Open B',
@@ -73,7 +73,7 @@ const signs = [
     name: 'All night',
     handshape: 'B',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'arm',
     handshape: 'B',
@@ -163,7 +163,7 @@ const signs = [
     name: 'Authority',
     handshape: 'Open A',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'arm',
     handshape: 'Open A',
@@ -273,7 +273,7 @@ const signs = [
     name: 'Bread',
     handshape: 'Bent B',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'hand',
     handshape: 'Bent B',
@@ -293,7 +293,7 @@ const signs = [
     name: 'Bridge',
     handshape: 'V',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'arm',
     handshape: 'V',
@@ -303,7 +303,7 @@ const signs = [
     name: 'Business',
     handshape: 'Open B',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'hand',
     handshape: 'Open B',
@@ -343,7 +343,7 @@ const signs = [
     name: 'Cereal',
     handshape: 'Open B',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'torso',
     handshape: 'Open B',
@@ -453,7 +453,7 @@ const signs = [
     name: 'Coins',
     handshape: 'F',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'palm',
     handshape: 'F',
@@ -463,7 +463,7 @@ const signs = [
     name: 'Collect',
     handshape: 'Bent 5',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'palm',
     handshape: 'Bent 5',
@@ -483,7 +483,7 @@ const signs = [
     name: 'Computer',
     handshape: 'C',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'arm',
     handshape: 'C',
@@ -523,7 +523,7 @@ const signs = [
     name: 'Cooking',
     handshape: 'Open B',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'hand',
     handshape: 'Open B',
@@ -543,7 +543,7 @@ const signs = [
     name: 'Country',
     handshape: 'Open B',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'arm',
     handshape: 'Open B',
@@ -603,7 +603,7 @@ const signs = [
     name: 'Dance',
     handshape: 'V',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'palm',
     handshape: 'V',
@@ -633,7 +633,7 @@ const signs = [
     name: 'Disappear',
     handshape: '1',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'hand',
     handshape: '1',
@@ -693,7 +693,7 @@ const signs = [
     name: 'Earth',
     handshape: 'Open 8',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'hand',
     handshape: 'Open 8',
@@ -733,7 +733,7 @@ const signs = [
     name: 'E-mail',
     handshape: 'E',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'hand',
     handshape: 'E',
@@ -743,7 +743,7 @@ const signs = [
     name: 'Empty',
     handshape: 'Open 8',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'hand',
     handshape: 'Open 8',
@@ -753,7 +753,7 @@ const signs = [
     name: 'Encyclopedia',
     handshape: 'E',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'palm',
     handshape: 'E',
@@ -763,7 +763,7 @@ const signs = [
     name: 'Episcopal',
     handshape: '1',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'arm',
     handshape: '1',
@@ -913,7 +913,7 @@ const signs = [
     name: 'Flat',
     handshape: 'Bent B',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'hand',
     handshape: 'Bent B',
@@ -943,7 +943,7 @@ const signs = [
     name: 'Force',
     handshape: 'C',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'hand',
     handshape: 'C',
@@ -953,7 +953,7 @@ const signs = [
     name: 'Foreign',
     handshape: 'F',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'arm',
     handshape: 'F',
@@ -963,7 +963,7 @@ const signs = [
     name: 'Fork',
     handshape: 'V',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'palm',
     handshape: 'V',
@@ -1013,7 +1013,7 @@ const signs = [
     name: 'From now on',
     handshape: 'Open B',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'hand',
     handshape: 'Open B',
@@ -1153,7 +1153,7 @@ const signs = [
     name: 'Greece',
     handshape: '1',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'hand',
     handshape: '1',
@@ -1263,7 +1263,7 @@ const signs = [
     name: 'Impossible',
     handshape: 'Y',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'palm',
     handshape: 'Y',
@@ -1273,7 +1273,7 @@ const signs = [
     name: 'Include',
     handshape: '5',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'hand',
     handshape: '5',
@@ -1323,7 +1323,7 @@ const signs = [
     name: 'Island',
     handshape: 'I',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'hand',
     handshape: 'I',
@@ -1403,7 +1403,7 @@ const signs = [
     name: 'Learn',
     handshape: '5',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'palm',
     handshape: '5',
@@ -1413,7 +1413,7 @@ const signs = [
     name: 'Light match',
     handshape: 'Baby O',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'palm',
     handshape: 'Baby O',
@@ -1483,7 +1483,7 @@ const signs = [
     name: 'Melon',
     handshape: '8',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'hand',
     handshape: '8',
@@ -1623,7 +1623,7 @@ const signs = [
     name: 'Octopus',
     handshape: 'Flattened O',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'inspace',
     handshape: 'Flattened O',
@@ -1663,7 +1663,7 @@ const signs = [
     name: 'Orthodox',
     handshape: 'F',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'palm',
     handshape: 'F',
@@ -1683,7 +1683,7 @@ const signs = [
     name: 'Pancake',
     handshape: 'Open B',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'palm',
     handshape: 'Open B',
@@ -1753,7 +1753,7 @@ const signs = [
     name: 'Picture',
     handshape: 'C',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'face',
     handshape: 'C',
@@ -1813,7 +1813,7 @@ const signs = [
     name: 'Poor',
     handshape: 'Flattened O',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'arm',
     handshape: 'Flattened O',
@@ -1823,7 +1823,7 @@ const signs = [
     name: 'Postpone',
     handshape: 'F ',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'hand',
     handshape: 'F ',
@@ -1833,7 +1833,7 @@ const signs = [
     name: 'Potato',
     handshape: 'Bent V',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'hand',
     handshape: 'Bent V',
@@ -1843,7 +1843,7 @@ const signs = [
     name: 'Predict',
     handshape: 'V',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'face',
     handshape: 'V',
@@ -1873,7 +1873,7 @@ const signs = [
     name: 'Puerto Rico',
     handshape: 'K',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'hand',
     handshape: 'K',
@@ -1943,7 +1943,7 @@ const signs = [
     name: 'Read',
     handshape: 'V',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'palm',
     handshape: 'V',
@@ -1963,7 +1963,7 @@ const signs = [
     name: 'Reduce',
     handshape: 'Flattened O',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'hand',
     handshape: 'Flattened O',
@@ -1993,7 +1993,7 @@ const signs = [
     name: 'Ride',
     handshape: 'Bent V',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'hand',
     handshape: 'Bent V',
@@ -2022,7 +2022,7 @@ const signs = [
     name: 'Ruin',
     handshape: 'X',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'hand',
     handshape: 'X',
@@ -2032,7 +2032,7 @@ const signs = [
     name: 'Salt',
     handshape: 'V',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'hand',
     handshape: 'V',
@@ -2062,7 +2062,7 @@ const signs = [
     name: 'Save money',
     handshape: 'Flattened O',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'hand',
     handshape: 'Flattened O',
@@ -2122,7 +2122,7 @@ const signs = [
     name: 'Sew',
     handshape: 'F',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'hand',
     handshape: 'F',
@@ -2172,7 +2172,7 @@ const signs = [
     name: 'Simple',
     handshape: 'F',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'hand',
     handshape: 'F',
@@ -2252,7 +2252,7 @@ const signs = [
     name: 'Steal',
     handshape: 'V',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'arm',
     handshape: 'V',
@@ -2272,7 +2272,7 @@ const signs = [
     name: 'Stimulate',
     handshape: '1',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'hand',
     handshape: '1',
@@ -2322,7 +2322,7 @@ const signs = [
     name: 'Stuck',
     handshape: '5',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'palm',
     handshape: '5',
@@ -2342,7 +2342,7 @@ const signs = [
     name: 'Subway',
     handshape: 'Y',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'palm',
     handshape: 'Y',
@@ -2372,7 +2372,7 @@ const signs = [
     name: 'Sweden',
     handshape: 'Flattened O',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'hand',
     handshape: 'Flattened O',
@@ -2402,7 +2402,7 @@ const signs = [
     name: 'Take break',
     handshape: 'Bent B',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'hand',
     handshape: 'Bent B',
@@ -2442,7 +2442,7 @@ const signs = [
     name: 'Tape',
     handshape: 'Open A',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'hand',
     handshape: 'Open A',
@@ -2452,7 +2452,7 @@ const signs = [
     name: 'Temple',
     handshape: 'T',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'hand',
     handshape: 'T',
@@ -2542,7 +2542,7 @@ const signs = [
     name: 'To-fool',
     handshape: 'A',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'face',
     handshape: 'A',
@@ -2552,7 +2552,7 @@ const signs = [
     name: 'Toast',
     handshape: 'Bent V',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'hand',
     handshape: 'Bent V',
@@ -2572,7 +2572,7 @@ const signs = [
     name: 'Train',
     handshape: 'H',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'hand',
     handshape: 'H',
@@ -2582,7 +2582,7 @@ const signs = [
     name: 'Trim hedge',
     handshape: 'V',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'hand',
     handshape: 'V',
@@ -2592,7 +2592,7 @@ const signs = [
     name: 'Triple',
     handshape: '3',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'palm',
     handshape: '3',
@@ -2632,7 +2632,7 @@ const signs = [
     name: 'Twice',
     handshape: 'K',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'palm',
     handshape: 'K',
@@ -2672,7 +2672,7 @@ const signs = [
     name: 'Vote',
     handshape: 'F',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'hand',
     handshape: 'F',
@@ -2682,7 +2682,7 @@ const signs = [
     name: 'Wag',
     handshape: '1',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'hand',
     handshape: '1',
@@ -2722,7 +2722,7 @@ const signs = [
     name: 'Watch',
     handshape: 'F',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'hand',
     handshape: 'F',
@@ -2742,7 +2742,7 @@ const signs = [
     name: 'Whale',
     handshape: 'Y',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Unidirectional',
     location: 'arm',
     handshape: 'Y',
@@ -2832,7 +2832,7 @@ const signs = [
     name: 'Write',
     handshape: 'Baby O',
 
-    hands: 'Two-handed, alternatively',
+    hands: 'Two-handed, asymmetrical',
     movement: 'Repeated',
     location: 'palm',
     handshape: 'Baby O',
@@ -2878,6 +2878,7 @@ const signs = [
     handshape: 'Open A',
   },
 ]
+
 
 const STIMULI_SIGNS = [
   'AUSTRALIA',
