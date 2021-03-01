@@ -2949,7 +2949,7 @@ async function logTime() {
       signCode: getParameter('i'),
     }
     // send stats data
-    await fetch('https://signs-prototype-api.vercel.app/create', {
+    await fetch('https://filter-prototype-api.vercel.app/create', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
